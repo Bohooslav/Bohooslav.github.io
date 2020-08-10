@@ -1,2 +1,6 @@
 # Bohooslav.github.io
-bolls.life
+[Bolls Bible](https://bolls.life)
+
+[Gesenius' Hebrew Grammar](/gesenius/)
+
+[Poopsssweemer](/poopsssweemer/dist/)
