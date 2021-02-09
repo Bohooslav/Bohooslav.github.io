@@ -1,21 +1,21 @@
 import {available_chords} from './chords'
 # import * as available_chords from './chords.json'
 
-console.log available_chords
+# console.log available_chords
 
 export tag song-tag
 	song = {}
-	show_chords = yes
+	settings = {}
 
 	def mount
-		console.log song, show_chords
+		console.log song, settings
 
 	def chordImgUrl chord
 		if chord == 'Bm'
 			chord = 'Hm'
 		return "/chords/{chord.replace('#', 'x')}.png"
 
-	<self>
+	<self[ff:{settings.font.family} fs:{settings.font.size} lh:{settings.font.line-height}]>
 		if song
 			<h1> song.title
 			<pre[m:auto]>
@@ -28,7 +28,7 @@ export tag song-tag
 						<span.refrain> line.refrain
 					elif line.bridge
 						<span.bridge> line.bridge
-					elif line.chords && show_chords
+					elif line.chords && settings.show_chords
 						<span.chords>
 							for part in line.chords
 								<>
@@ -36,10 +36,10 @@ export tag song-tag
 										<span.chord>
 											part
 											<.chord_img>
-												<img src=chordImgUrl(part)>
+												<img .invert=(settings.theme == 'dark') src=chordImgUrl(part)>
 									else
 										part
-					unless line.bridge 
+					unless line.bridge or (line.chords && not settings.show_chords)
 						<br>
 	
 	css
@@ -60,6 +60,7 @@ export tag song-tag
 	css .chords
 		pt: 0.5em
 		d:inline-block
+		lh:1
 	
 	css .chord
 		pos:relative
@@ -81,6 +82,7 @@ export tag song-tag
 
 
 	css .chord_img
+		us:none
 		bd:1px solid $btn-bg
 		pos:absolute
 		b:100%
@@ -88,3 +90,6 @@ export tag song-tag
 		p:8px 0
 		rd:8px
 		shadow: 0 0 0 1px rgba(53,72,91,.1),0 2px 2px rgba(0,0,0,.0274351),0 4px 4px rgba(0,0,0,.0400741),0 10px 8px rgba(0,0,0,.0499982),0 15px 15px rgba(0,0,0,.0596004),0 30px 30px rgba(0,0,0,.0709366),0 70px 65px rgba(0,0,0,.09)
+	
+	css .invert
+		filter: invert(100%)
