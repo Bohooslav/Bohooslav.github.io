@@ -1,50 +1,67 @@
-import {available_chords} from './chords'
+# import {available_chords} from './chords'
 # import * as available_chords from './chords.json'
-
-# console.log available_chords
 
 export tag song-tag
 	song = {}
 	settings = {}
 
-	def mount
-		console.log song, settings
-
 	def chordImgUrl chord
-		if chord == 'Bm'
-			chord = 'Hm'
-		return "/chords/{chord.replace('#', 'x')}.png"
+		chord = chord.replace('#', 'x').replace('B', 'H')
+		return "/chords/{chord}.png"
+
+
 
 	<self[ff:{settings.font.family} fs:{settings.font.size} lh:{settings.font.line-height}]>
-		if song
-			<h1> song.title
-			<pre[m:auto]>
-				for line in song.lines
-					if line.text
-						<span> line.text
-					elif line.break
-						<br>
+		<h1>
+			song.name
+			if song.transposition > 0
+				' +'
+				song.transposition
+			elif song.transposition < 0
+				' '
+				song.transposition
+		<pre .wrapped=settings.word_wrap>
+			for line in song.lines
+				<div .break=line.break>
+					if line.text && settings.show_text
+						<p> line.text
 					elif line.refrain
-						<span.refrain> line.refrain
+						<p.refrain> line.refrain
 					elif line.bridge
-						<span.bridge> line.bridge
+						<p.bridge> line.bridge
 					elif line.chords && settings.show_chords
-						<span.chords>
+						<p.chords .without_text=!settings.show_text>
 							for part in line.chords
-								<>
-									if part[0] != ' '
+								<span>
+									if /[A-H]/.test(part[0])
 										<span.chord>
-											part
+											<span> part
 											<.chord_img>
 												<img .invert=(settings.theme == 'dark') src=chordImgUrl(part)>
 									else
 										part
-					unless line.bridge or (line.chords && not settings.show_chords)
-						<br>
 	
+
+
 	css
 		d:flex
 		fld:column
+
+	css pre
+		m:auto
+		ff:inherit
+	
+	css p
+		pb: 0.5em
+
+	css .wrapped p
+		word-break: normal
+		white-space: pre-wrap
+		text-indent: -2em
+		margin-left: 2em
+
+	css .break
+		h:1.6em
 
 	css h1
 		m:2em auto
@@ -58,9 +75,14 @@ export tag song-tag
 		fw:bold
 	
 	css .chords
-		pt: 0.5em
-		d:inline-block
 		lh:1
+		pb:0
+
+	css .without_text
+		lh:inherit
+		pb:inherit
+		ws:pre-line
+
 	
 	css .chord
 		pos:relative
@@ -68,6 +90,7 @@ export tag song-tag
 		c:$accent-hover-color @hover:$accent-color
 		d:inline-flex
 		jc:center
+		text-indent:0
 
 	css .chord > .chord_img
 		o:0
@@ -90,6 +113,10 @@ export tag song-tag
 		p:8px 0
 		rd:8px
 		shadow: 0 0 0 1px rgba(53,72,91,.1),0 2px 2px rgba(0,0,0,.0274351),0 4px 4px rgba(0,0,0,.0400741),0 10px 8px rgba(0,0,0,.0499982),0 15px 15px rgba(0,0,0,.0596004),0 30px 30px rgba(0,0,0,.0709366),0 70px 65px rgba(0,0,0,.09)
-	
+
+	css .chord_img img
+		size:64px
+
+
 	css .invert
 		filter: invert(100%)

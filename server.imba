@@ -4,7 +4,7 @@ import index from './app/index.html'
 const app = express!
 
 # catch-all route that returns our index.html
-app.use(express.static('app/images'))
+app.use(express.static('static'))
 
 app.get(/.*/) do(req,res)
 	# only render the html for requests that prefer an html response
