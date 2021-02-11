@@ -474,7 +474,7 @@ tag app
 	<self>
 		<nav @touchstart=slidestart @touchend=closedrawersend @touchcancel=closedrawersend @touchmove=closingdrawer style="left: {songbook_menu_left}px; {boxShadow(songbook_menu_left)}{(onzone || inzone) ? 'transition:none;' : ''}">
 			<[pos:sticky t:calc(100vh - 91px) d:flex]>
-				<input$search placeholder='Пошук' bind=search_query @keyup=filterSongs>
+				<input$search aria-label='Пошук' placeholder='Пошук' bind=search_query @keyup=filterSongs>
 				<button [
 					bg:$background-color fs:2em c@hover:firebrick size:59px
 					bd:none cursor:pointer

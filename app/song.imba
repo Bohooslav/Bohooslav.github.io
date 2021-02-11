@@ -37,7 +37,7 @@ export tag song-tag
 										<span.chord>
 											<span> part
 											<.chord_img>
-												<img .invert=(settings.theme == 'dark') src=chordImgUrl(part)>
+												<img .invert=(settings.theme == 'dark') src=chordImgUrl(part) alt=part>
 									else
 										part
 	

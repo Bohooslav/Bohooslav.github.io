@@ -5,9 +5,9 @@ var URLS = [
   // Add URL you want to cache in this list.
   "/", // If you have separate JS/CSS files,
   "/index.html", // add path to those files here
-  "/static/app/client.OSX5SVMF.js",
-  "/static/app/client.OSX5SVMF.js.map",
   "/static/app/client.VAWENGFN.css",
+  "/static/app/client.VVLL0O4C.js",
+  "/static/app/client.VVLL0O4C.js.map",
   "/images/green-leaves-plants.jpeg",
   "/chords/A.png",
   "/chords/A5.png",

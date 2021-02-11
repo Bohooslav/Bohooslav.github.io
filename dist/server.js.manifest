@@ -325,10 +325,10 @@
     ],
     [
       "$$38$$",
-      3098
+      2877
     ]
   ],
-  "bytes": 3327,
+  "bytes": 3106,
   "source": "$$38$$",
   "_": "output",
   "path": "public/index.html",
@@ -337,21 +337,21 @@
     "$$36$$",
     "$$37$$"
   ],
-  "hash": "FR8TOI9F",
+  "hash": "PFYKE8OL",
   "originalPath": "public/app/index.__dist__.html"
 },
 "$$33$$":{
   "imports": [],
   "exports": [],
   "inputs": [],
-  "bytes": 392316,
+  "bytes": 392399,
   "source": "$$39$$",
   "_": "output",
-  "path": "public/__assets__/app/client.OSX5SVMF.js.map",
-  "url": "/__assets__/app/client.OSX5SVMF.js.map",
+  "path": "public/__assets__/app/client.VVLL0O4C.js.map",
+  "url": "/__assets__/app/client.VVLL0O4C.js.map",
   "type": "map",
   "dependencies": [],
-  "hash": "OSX5SVMF",
+  "hash": "VVLL0O4C",
   "originalPath": "public/__assets__/app/client.__dist__.js.map"
 },
 "$$34$$":{
@@ -416,7 +416,7 @@
     ],
     [
       "$$54$$",
-      3606
+      3647
     ],
     [
       "$$55$$",
@@ -428,19 +428,19 @@
     ],
     [
       "$$39$$",
-      24474
+      24530
     ]
   ],
-  "bytes": 279787,
+  "bytes": 279884,
   "source": "$$39$$",
   "css": "$$57$$",
   "map": "$$33$$",
   "_": "output",
-  "path": "public/__assets__/app/client.OSX5SVMF.js",
-  "url": "/__assets__/app/client.OSX5SVMF.js",
+  "path": "public/__assets__/app/client.VVLL0O4C.js",
+  "url": "/__assets__/app/client.VVLL0O4C.js",
   "type": "js",
   "dependencies": [],
-  "hash": "OSX5SVMF",
+  "hash": "VVLL0O4C",
   "originalPath": "public/__assets__/app/client.__dist__.js"
 },
 "$$35$$":{
@@ -484,7 +484,7 @@
   "asset": "$$34$$"
 },
 "$$38$$":{
-  "bytes": 2527,
+  "bytes": 2356,
   "imports": [
     "$$36$$",
     "$$37$$"
@@ -494,7 +494,7 @@
   "js": "$$32$$"
 },
 "$$39$$":{
-  "bytes": 97538,
+  "bytes": 97644,
   "imports": [
     "$$51$$",
     "$$62$$",
@@ -615,7 +615,7 @@
   "path": "styles:app/song.imba"
 },
 "$$54$$":{
-  "bytes": 12758,
+  "bytes": 12882,
   "imports": [
     "$$51$$",
     "$$53$$"
@@ -680,7 +680,7 @@
   "path": "styles:app/song.imba"
 },
 "$$61$$":{
-  "bytes": 97538,
+  "bytes": 97644,
   "imports": [
     "$$64$$",
     "$$65$$",
@@ -733,7 +733,7 @@
   "path": "app/global_styles.imba"
 },
 "$$65$$":{
-  "bytes": 12758,
+  "bytes": 12882,
   "imports": [
     "$$60$$"
   ],
@@ -892,13 +892,13 @@
   "outputs": {
     "server.js": "$$31$$",
     "public/index.html": "$$32$$",
-    "public/__assets__/app/client.OSX5SVMF.js.map": "$$33$$",
-    "public/__assets__/app/client.OSX5SVMF.js": "$$34$$",
+    "public/__assets__/app/client.VVLL0O4C.js.map": "$$33$$",
+    "public/__assets__/app/client.VVLL0O4C.js": "$$34$$",
     "public/__assets__/app/client.VAWENGFN.css": "$$35$$"
   },
   "urls": {
-    "/__assets__/app/client.OSX5SVMF.js.map": "$$33$$",
-    "/__assets__/app/client.OSX5SVMF.js": "$$34$$",
+    "/__assets__/app/client.VVLL0O4C.js.map": "$$33$$",
+    "/__assets__/app/client.VVLL0O4C.js": "$$34$$",
     "/__assets__/app/client.VAWENGFN.css": "$$35$$"
   },
   "main": "$$31$$",
@@ -912,5 +912,5 @@
   "path": "server.js.manifest",
   "srcdir": "../..",
   "outdir": "..",
-  "hash": "ZDII0PDG"
+  "hash": "LWV5PHWW"
 }
