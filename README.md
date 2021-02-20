@@ -4,3 +4,5 @@
 [Gesenius' Hebrew Grammar](/gesenius/)
 
 [Poopsssweemer](/poopsssweemer/dist/)
+
+[Songbook](songbook.club)
