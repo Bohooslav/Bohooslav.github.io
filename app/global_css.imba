@@ -23,8 +23,7 @@ global css
 
 	*::selection
 		color: white
-		# background-color: black
-		background-color: blue9
+		background-color: teal9
 
 	::-webkit-scrollbar
 		width: 12px
@@ -55,7 +54,7 @@ global css
 		font-family: "Montserrat", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 		letter-spacing: normal
 		font-size: 16px
-		background: gray9
+		background: cool9
 		word-break: break-word
 		color: white
 
