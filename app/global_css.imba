@@ -58,3 +58,5 @@ global css
 		word-break: break-word
 		color: white
 
+	h2
+		fs:1.6em

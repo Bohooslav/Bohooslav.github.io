@@ -35,8 +35,8 @@ tag app
 			<a @click=scrollto('works')> "Works"
 			<a @click=scrollto('contact')> "Contact"
 
-		<header.viewport_box [p:0 8px fld:row]>
-			<h1[d:flex fld:column fw:800 fs:8vw @sm:4vw]>
+		<header.viewport_box id="header" [p:0 8px fld:row]>
+			<h1>
 				<span> '👋🏼 I am Bohuslav'
 				<span[ta:right]> '- web developer'
 				<span> 'who loves to design!'
@@ -44,7 +44,7 @@ tag app
 
 		<section.viewport_box id="about">
 			<article.article>
-				<h1> 'About me'
+				<h1[$c1:amber2 $c2:amber6]> 'About me'
 				<p> 'I live in Khust, Ukraine. I love to code, design, play on violin, listen classical music, run on mountains and pet cats.'
 				<p> "I started my education in 2018. I choose web development as my primary subject by heart. Starting with HTML and CSS, I continued with Python and Django. Back in that time backend development was more attractive for me. During that time trying to learn CSS grid I found {<a rel="noreferrer" target="_blank" href="https://scrimba.com"> "a nice website"} with interactive videos where you may pause the video, modify the code and run it in minibrowser right in your browser and then continue. I was fascinated with that technology. I wondered how it is made. When I find out that it is made with {<a rel="noreferrer" target="_blank" href="https://imba.io"> "Imba"} — I was sure — I will try this language in the future."
 				<p> "After getting better at Django and learning some JavaScript I decided to make some game and learn Imba in that way. It was {<a href="/poopsssweemer/dist/" target="_blank"> "Poopsssweemer"}. It's like minesweeper but with poops instead. I spend a good week or two and finish with something like this:"
@@ -58,8 +58,8 @@ tag app
 
 		<section.viewport_box id="works">
 			<article.article>
-				<h1> 'My works'
-				<h2> "Bolls Bible"
+				<h1[$c1:yellow2 $c2:yellow6]> 'My works'
+				<h2[$c1:sky2 $c2:sky6]> "Bolls Bible"
 				<p> "The first big project that I am the most proud of."
 				<p> "There was no good app for reading Bible that would satisfy my needs and I have decided to create one myself. I am using {<mark> "Django"} for backend and {<mark> "Imba"} for frontend. I created a database for Bible translations, bookmarks, and notes. {<mark> "Developed API"} for frontend, main part of which can be used by anybody. Hosted the app with {<mark> "Google App Engine"} and the database with {<mark> "Amazon RDS"}. And it is still up on {<a rel="noreferrer" target="_blank" href="https://bolls.life"> "bolls.life"}."
 				<p> "I have learned a lot with this project. I use {<mark> "IndexedDB"} to store translations for offline, {<mark> "PWA"} — {<mark> "Progressive Web Application"} that made it an installable app working offline. A lot of time spent for {<mark> "SEO"}. Connected it to {<mark> "Google Search Console"} for better analytic of search presence. Improved the page loading, HTML tagging. But the most time spent on the frontend side designing and implementing the UI. It is the most challenging part for me in any project — create beautiful and usable UI."
@@ -69,7 +69,7 @@ tag app
 				<figcaption> "Logo for Bolls Bible"
 
 			<article.article>
-				<h2> "A few other small projects"
+				<h2[$c1:indigo2 $c2:indigo6]> "A few other small projects"
 
 				<p> "{<a rel="noreferrer" target="_blank" href="https://bohooslav.github.io/gesenius/"> "Gesenius’ Hebrew Grammar"} — a static {<mark> "HTML"} + {<mark> "CSS"} reader for the grammar. {<a rel="noreferrer" target="_blank" href="https://github.com/Bohooslav/gesenius"> "GitHub"}"
 
@@ -83,7 +83,7 @@ tag app
 
 				<p> "This website i also made myself :P"
 				
-				<h2[mt:4em]> "Koteus"
+				<h2[mt:4em $c1:violet2 $c2:violet6]> "Koteus"
 				<p> "The second-biggest project I am still developing with my friend. An online shop for selling tech goods."
 				<p> "There is a company that provides an API for making your own drop-shipping website, and I have decided to use the chance and create one. {<mark> "Django"} + {<mark> "Imba"} + different {<mark> "APIs"} for some needs + {<mark> "Google App Engine"} + {<mark> "PostgreSQL"} database hosted on a VPS = {<a rel="noreferrer" target="_blank" href="https://koteus.com/"> "koteus.com"}. The app is still under development, but soon I hope to release it."
 				
@@ -93,23 +93,17 @@ tag app
 
 
 			<article.article>
-				<h2> "My programming stack"
+				<h1[$c1:orange2 $c2:orange6]> "My programming stack"
 				<p> "At this point of time I am using the next instruments for web development. {<mark> "Django"} for backend, {<mark> "Imba"} for frontend. I like to host things on {<mark> "Google App Engine"}, it is fast, easy, and reliable. If a project is big and require scalability I use {<mark> "PostgreSQL"} for database and host it separately."
 				<p> "I also use such technologies as {<mark> "Electron"}, {<mark> "PWA"}, {<mark> "IndexedDB"}, am skilled at {<mark> "using and creating API"}. Always land for optimization and beautiful, readable and performative code, use {<mark> "Git"} and am a big fun of {<mark> "Linux"}."
 				<p> "{<mark> "Design"} is my special passion. I have been following trends for years. I have a picky taste that lands to freedom of space, absence of borders and any unneeded limits, smooth but contrast colors, and comfortable navigation. Everything that is needed for your user to feel oneself in a right place."
 
-				# {<mark> ""}
-
-				# <p> ""
-				# <p> ""
-				# {<a rel="noreferrer" target="_blank" href=""> ""}
-
 
 		<section.viewport_box id="contact">
 			<article.contactme>
-				<h1> 'Contact me'
+				<h1[$c1:blue2 $c2:blue6]> 'Contact me'
 				<p> "I don't like to spend time in social networks so the almost only way to contact me is Telegram, Gmail and my phone number."
-				<[d:flex jc:space-around]>
+				<[d:flex jc:space-around @lt-sm:space-between]>
 					<a rel="noreferrer" target="_blank" href="https://t.me/Boguslavv">
 						<svg[size:64px @lt-xs:48px] viewBox="0 0 240 240" [bg:$fill border-radius: 50%] alt="Telegram">
 							<title> "Telegram"
@@ -145,6 +139,17 @@ tag app
 			padding:16px
 			cursor:pointer
 			o@hover:0.8
+			fw:600
+			us:none
+			c:rose0
+
+		#header h1
+			d:flex fld:column fw:800 fs:8vw @sm:4vw
+			background: -webkit-linear-gradient(-60deg, rose5, amber2 80%);
+			background-clip: border-box;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			us:none
 		
 		.viewport_box
 			min-height:100vh d:flex ai:center jc:center fld:column
@@ -153,16 +158,31 @@ tag app
 			max-width:680px
 			m:0 auto 64px
 			fs:18px
-			p:0 8px
+			p@lt-md:0 5%
 
 		.article h1, .contactme h1
 			fw:900
-			fs:2.4em
-			p:2em 0 0.5em
+			fs:2.4em @lt-sm: 2.2em
+			m:2em 0 1em
+		
+		.article h1, .contactme h1, .article h2
+			us:none
+			w:max-content
+			max-width:90vw
+			background: linear-gradient(227deg, $c1, $c2)
+			background-clip: text
+			-webkit-background-clip: text
+			-moz-background-clip: text
+			-moz-text-fill-color: transparent
+			-webkit-text-fill-color: transparent
+
+		.article h2
+			fw:900
+			ls:2px
 
 		.article p, .contactme p
-			lh:2
-			pt:2em
+			lh:1.8
+			pt:1em
 
 		figure
 			m: 64px 0
@@ -179,8 +199,10 @@ tag app
 			c:warmer2
 
 		mark
-			bg:fichia4/32%
+			bg:sky9
 			c:inherit
+			fw:500
+			p:2px 8px
 
 
 
@@ -205,27 +227,28 @@ tag app
 		.article a
 			lh:1.5em
 			td:none
-			color: fuchsia2 @hover:fuchsia1
+			color: amber3
 			display: inline-block
-			background-image: linear-gradient(fuchsia2 0px, fuchsia2 100%)
+			background-image: linear-gradient(amber3 0px, amber3 100%)
 			cursor: pointer
 			background-repeat: no-repeat
 			background-size: 100% 0.2em
 			background-position: 0px 110%
 			animation@hover: 0.4s cubic-bezier(0.58, 0.3, 0.005, 1) 0s 1 normal none link-hover
+			fw:500
 		
 		.contactme a
 			d:flex
 			jc:center
 			ai:center
 			fld:column
-			p:16px @lt-xs:8px
 			m:16px 0
 			fw:bold
 			fs:0.8em
 			td:none
-			c:gray1 @hover:fuchsia2
-			--fill:white @hover:fuchsia2
+			c:blue1 @hover:white
+			--fill:blue1 @hover:white
+			fw:600
 
 
 		.contactme span
