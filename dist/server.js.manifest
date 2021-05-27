@@ -339,14 +339,14 @@
     "$$36$$",
     "$$37$$"
   ],
-  "hash": "WNAKANU8",
+  "hash": "EPGXIQ5L",
   "originalPath": "public/app/index.__dist__.html"
 },
 "$$33$$":{
   "imports": [],
   "exports": [],
   "inputs": [],
-  "bytes": 99165,
+  "bytes": 99340,
   "source": "$$39$$",
   "_": "output",
   "path": "public/__assets__/app/client.js.map",
@@ -439,7 +439,7 @@
   "inputs": [
     [
       "$$55$$",
-      5596
+      5726
     ],
     [
       "$$56$$",
@@ -450,14 +450,14 @@
       0
     ]
   ],
-  "bytes": 6957,
+  "bytes": 7087,
   "source": "$$58$$",
   "_": "output",
   "path": "public/__assets__/app/client.css",
-  "url": "/__assets__/app/client.css?v=G9EAD1IM",
+  "url": "/__assets__/app/client.css?v=VL99HJIH",
   "type": "css",
   "dependencies": [],
-  "hash": "G9EAD1IM",
+  "hash": "VL99HJIH",
   "originalPath": "public/__assets__/app/client.__dist__.css"
 },
 "$$36$$":{
@@ -485,7 +485,7 @@
   "js": "$$32$$"
 },
 "$$39$$":{
-  "bytes": 55251,
+  "bytes": 55483,
   "imports": [
     "$$50$$",
     "$$59$$",
@@ -596,7 +596,7 @@
   "path": "app/smooth_scroll.imba"
 },
 "$$53$$":{
-  "bytes": 6257,
+  "bytes": 6403,
   "imports": [],
   "_": "input",
   "path": "styles:app/client.imba"
@@ -606,25 +606,25 @@
   "inputs": [
     [
       "$$53$$",
-      5596
+      5726
     ],
     [
       "$$51$$",
       1360
     ]
   ],
-  "bytes": 6957,
+  "bytes": 7087,
   "source": "$$39$$",
   "_": "output",
   "path": "public/__assets__/app/client.css",
-  "url": "/__assets__/app/client.css?v=VSRZ0AYE",
+  "url": "/__assets__/app/client.css?v=SKD8LNBV",
   "type": "css",
   "dependencies": [],
-  "hash": "VSRZ0AYE",
+  "hash": "SKD8LNBV",
   "originalPath": "public/__assets__/app/client.__dist__.css"
 },
 "$$55$$":{
-  "bytes": 6257,
+  "bytes": 6403,
   "imports": [],
   "_": "input",
   "path": "styles:app/client.imba"
@@ -642,7 +642,7 @@
   "path": "styles:app/smooth_scroll.imba"
 },
 "$$58$$":{
-  "bytes": 55251,
+  "bytes": 55483,
   "imports": [
     "$$61$$",
     "$$62$$",
@@ -863,7 +863,7 @@
   "urls": {
     "/__assets__/app/client.js.map": "$$33$$",
     "/__assets__/app/client.js?v=NCOTFBOC": "$$34$$",
-    "/__assets__/app/client.css?v=G9EAD1IM": "$$35$$"
+    "/__assets__/app/client.css?v=VL99HJIH": "$$35$$"
   },
   "main": "$$31$$",
   "assets": [
@@ -876,5 +876,5 @@
   "path": "server.js.manifest",
   "srcdir": "../..",
   "outdir": "..",
-  "hash": "KVLDMFXE"
+  "hash": "T97GQXBY"
 }

@@ -145,10 +145,14 @@ tag app
 
 		#header h1
 			d:flex fld:column fw:800 fs:8vw @sm:4vw
-			background: -webkit-linear-gradient(-60deg, rose5, amber2 80%);
-			background-clip: border-box;
+			background: radial-gradient(-45deg, rose5, amber2 80%)
+			background: radial-gradient(farthest-corner at 100% 80%, rose5, orange4, amber2);
+			origin:bottom right
+			background-clip: text;
 			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
+			-moz-background-clip: text
+			-moz-text-fill-color: transparent
+			-webkit-text-fill-color: transparent
 			us:none
 		
 		.viewport_box
