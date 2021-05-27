@@ -2,7 +2,7 @@
   "name": "bohooslav_github_io",
   "scripts": {
     "start": "imba -w server.imba",
-    "build": "imba build server.imba"
+    "build": "imba build --no-hashing server.imba"
   },
   "dependencies": {
     "express": "^4.17.1",
