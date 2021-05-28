@@ -38,9 +38,10 @@ tag app
 		<header.viewport_box id="header" [p:0 8px fld:row]>
 			<h1>
 				<span> '👋🏼 I am Bohuslav'
-				<span[ta:right]> '- web developer'
+				<br>
+				<span[ta:right d:inline-block w:100%]> '- web developer'
+				<br>
 				<span> 'who loves to design!'
-				"test test test"
 			<img [max-height:86vh max-width:50%] src="/images/peep.png" aria-label="Bohuslav">
 
 		<section.viewport_box id="about">
@@ -145,11 +146,12 @@ tag app
 			c:rose0
 
 		#header h1
-			d:flex fld:column fw:800 fs:8vw @sm:4vw
+			fw:800
+			fs:8vw @sm:4vw
 			background: linear-gradient(325deg, rose5, orange4, amber2)
-			background-clip: text
-			-webkit-background-clip: text
-			-moz-background-clip: text
+			background-clip@important: text 
+			-webkit-background-clip@important: text 
+			-moz-background-clip@important: text 
 			-moz-text-fill-color: transparent
 			-webkit-text-fill-color: transparent
 			us:none
