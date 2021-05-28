@@ -25,6 +25,13 @@
     <body>
         <!-- reference to the client script -->
         <script type="module" src="/static/app/client.js"></script>
+        <script>
+            navigator.serviceWorker.getRegistrations().then(function(registrations) {
+                for(let registration of registrations) {
+                    registration.unregister()
+                }
+            })
+        </script>
+	    <noscript>Unfortunately, this site requires JavaScript that is disabled in your browser :(</noscript>
     </body>
-	<noscript>Unfortunately, this site requires JavaScript that is disabled in your browser :(</noscript>
 </html>
