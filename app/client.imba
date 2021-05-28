@@ -37,10 +37,8 @@ tag app
 
 		<header.viewport_box id="header" [p:0 8px fld:row]>
 			<h1>
-				<span> '👋🏼 I am Bohuslav'
-				<br>
-				<span[ta:right d:inline-block w:100%]> '- web developer'
-				<br>
+				<span> '👋🏼 I am Bohuslav\n'
+				<span[ta:right]> '\t- web developer\n'
 				<span> 'who loves to design!'
 			<img [max-height:86vh max-width:50%] src="/images/peep.png" aria-label="Bohuslav">
 
@@ -147,6 +145,7 @@ tag app
 
 		#header h1
 			fw:800
+			ws:break-spaces
 			fs:8vw @sm:4vw
 			background: linear-gradient(325deg, rose5, orange4, amber2)
 			background-clip@important: text 
@@ -155,7 +154,7 @@ tag app
 			-moz-text-fill-color: transparent
 			-webkit-text-fill-color: transparent
 			us:none
-		
+
 		.viewport_box
 			min-height:100vh d:flex ai:center jc:center fld:column
 
