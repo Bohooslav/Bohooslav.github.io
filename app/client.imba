@@ -40,6 +40,7 @@ tag app
 				<span> '👋🏼 I am Bohuslav'
 				<span[ta:right]> '- web developer'
 				<span> 'who loves to design!'
+				"test test test"
 			<img [max-height:86vh max-width:50%] src="/images/peep.png" aria-label="Bohuslav">
 
 		<section.viewport_box id="about">
@@ -145,10 +146,9 @@ tag app
 
 		#header h1
 			d:flex fld:column fw:800 fs:8vw @sm:4vw
-			background: linear-gradient(-45deg, rose5, orange4, amber2)
-			origin:bottom right
-			background-clip: text;
-			-webkit-background-clip: text;
+			background: linear-gradient(325deg, rose5, orange4, amber2)
+			background-clip: text
+			-webkit-background-clip: text
 			-moz-background-clip: text
 			-moz-text-fill-color: transparent
 			-webkit-text-fill-color: transparent
