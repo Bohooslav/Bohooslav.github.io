@@ -46,14 +46,14 @@ tag app
 			<article.article>
 				<h1[$c1:amber2 $c2:amber6]> 'About me'
 				<p> 'I live in Khust, Ukraine. I love to code, design, play on violin, listen classical music, run on mountains and pet cats.'
-				<p> "I started my education in 2018. I choose web development as my primary subject by heart. Starting with HTML and CSS, I continued with Python and Django. Back in that time backend development was more attractive for me. During that time trying to learn CSS grid I found {<a rel="noreferrer" target="_blank" href="https://scrimba.com"> "a nice website"} with interactive videos where you may pause the video, modify the code and run it in minibrowser right in your browser and then continue. I was fascinated with that technology. I wondered how it is made. When I find out that it is made with {<a rel="noreferrer" target="_blank" href="https://imba.io"> "Imba"} — I was sure — I will try this language in the future."
-				<p> "After getting better at Django and learning some JavaScript I decided to make some game and learn Imba in that way. It was {<a href="/poopsssweemer/dist/" target="_blank"> "Poopsssweemer"}. It's like minesweeper but with poops instead. I spend a good week or two and finish with something like this:"
+				<p> "I started my programming education in 2018. I choose web development as my primary subject by heart. Starting with HTML and CSS, I continued with Python and Django. During that time trying to learn CSS grid I found {<a rel="noreferrer" target="_blank" href="https://scrimba.com"> "a nice website"} with interactive videos where you may pause the video, modify the code and run it in minibrowser right in your browser. I was fascinated with that technology. I wondered how well it's made and how fast it is. When I find out that it is made with {<a rel="noreferrer" target="_blank" href="https://imba.io"> "Imba"} — I was sure — I will use this language in the future."
+				<p> "After getting better at Django and learning some JavaScript I decided to make some game to learn Imba in that way. It was {<a href="/poopsssweemer/dist/" target="_blank"> "Poopsssweemer"}. It's like minesweeper but with poops instead 💩. I spend a good week or two and finished with something like this:"
 			<figure>
 				<img src="/images/poopsssweemer.png" aria-label="Poopsssweemer game. Won middle difficulty">
 				<figcaption> "Poopsssweemer game. Won middle difficulty"
 			
 			<article.article>
-				<p> "After successful completion of Poopsssweemer I felt enough strength in myself to create something awesome together with Django and Imba."
+				<p> "After successful completion of Poopsssweemer I felt enough strength in myself to create something awesome with Django and Imba."
 
 
 		<section.viewport_box id="works">
