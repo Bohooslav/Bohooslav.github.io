@@ -1,13 +1,12 @@
 global css
 	html
-		ff:sans
-		--bg-color: white
-		--text-color: black
+		--bgc: white
+		--c: #010323
 
 
 	*
 		box-sizing: border-box
-		scrollbar-color: gray6 transparent
+		scrollbar-color: #040D8B transparent
 		scrollbar-width: auto
 		margin: 0
 		padding: 0
@@ -22,41 +21,54 @@ global css
 
 
 	*::selection
-		color: white
-		background-color: teal9
+		color: $bgc
+		background-color: $c
+
 
 	::-webkit-scrollbar
-		width: 12px
-
+		width: auto
 
 	::-webkit-scrollbar-track
 		background: transparent
 
-
 	::-webkit-scrollbar-thumb
-		background: gray7
-		border-radius: 4px
-
+		background: #020745
 
 	::-webkit-scrollbar-thumb:hover
-		background: gray8
+		background: #040D8B
+
+	::-webkit-scrollbar-thumb:active
+		background: #0614D0
+
 
 
 	*:focus
 		outline: none
 
 
-	html
-		transition-property@important: background-color
-
-
 	html, body
-		font-family: "Montserrat", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-		letter-spacing: normal
-		font-size: 16px
-		background: cool9
-		word-break: break-word
-		color: white
-
+		font-family: "Raleway", "Oswald", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+		font-size: 14px
+	
 	h2
-		fs:1.6em
+		ff:'Oswald', sans-serif
+		fw:normal
+
+	h3
+		fs:1em
+	
+	h4
+		fs:1em
+		fw:normal
+		mb:0.5em
+
+	a
+		d:inline
+		c:$c
+		td:none @hover: 1px solid underline
+		p:4px 0
+		letter-spacing:0.1em
+	
+	p
+		lh:1.6
+		letter-spacing: 0.1em
