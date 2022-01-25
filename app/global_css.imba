@@ -53,6 +53,8 @@ global css
 	h2
 		ff:'Oswald', sans-serif
 		fw:normal
+		letter-spacing:0.15em
+		m:16px 0
 
 	h3
 		fs:1em
@@ -65,7 +67,7 @@ global css
 	a
 		d:inline
 		c:$c
-		td:none @hover: 1px solid underline
+		td:none @hover: 1px solid underline @lt-lg: 1px solid underline
 		p:4px 0
 		letter-spacing:0.1em
 	

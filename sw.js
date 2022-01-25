@@ -1,13 +1,13 @@
 var APP_PREFIX = "BOHUSLAV_PAVLYSHYNETS_v"; // Identifier for this app (this needs to be consistent across every cache update)
-var VERSION = "0.0.0.2"; // Version of the off-line cache (change this value everytime you want to update cache)
+var VERSION = "0.0.0.3"; // Version of the off-line cache (change this value everytime you want to update cache)
 var CACHE_NAME = APP_PREFIX + VERSION;
 var URLS = [
   // Add URL you want to cache in this list.
-  "/notepad/", // If you have separate JS/CSS files,
-  "/notepad/index.html", // add path to those files here
-  "/notepad/static/app/client.css",
-  "/notepad/static/app/client.js",
-  "/notepad/static/app/client.js.map",
+  "/", // If you have separate JS/CSS files,
+  "/index.html", // add path to those files here
+  "/static/app/client.css",
+  "/static/app/client.js",
+  "/static/app/client.js.map",
 ];
 
 // Respond with cached resources

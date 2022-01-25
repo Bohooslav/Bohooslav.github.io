@@ -259,9 +259,11 @@ tag app
 
 		<section .ambit .afterword>
 			<h1> 'OTHER SKILLS & EXPERIENCE'
-			<p> "Beside works mentioned above, I have done some other webapps, which were not successful but bring me a lot of experience"
+			<p> "Beside works mentioned above, I have done some other webapps, which were not successful but brought me a lot of experience"
 			<p> "The most prominent was koteus.com, working over which I did learn a lot about online shops --
 				{<b> 'SEO optimization'} of the website, {<b> 'microdata'}, {<b> 'PWA'}, fitting for {<b> 'Google Merchant'}"
+			
+			<h2[fs:1.2em mb:0px]> 'OTHER SMALL PROJECTS'
 			<p> "One day frontend project {<a [fw:bold] href='https://bohuslav.me/barbershop/dist'> 'Barbershop'}"
 			<p> <a [fw:bold] href='https://bohuslav.me/gesenius/'> 'Gesenius\' Hebrew Grammar'
 			<p> 'I live in Khust, Ukraine. I love to code, design, play on violin, listen classical music, run on mountains and pet cats.'
@@ -273,7 +275,7 @@ tag app
 		.ambit
 			max-width:1024px
 			width:100%
-			p:0 12px 128px
+			p:0 12px 128px @lt-md:0 5vw 128px
 			m:auto
 		
 		main
@@ -304,10 +306,6 @@ tag app
 			p:32px 64px @lt-lg:32px 5vw
 			lh:1.6
 			letter-spacing: 0.1em
-
-		.block h2
-			m:16px 0
-			letter-spacing:0.15em
 
 		.block a
 			d:block
