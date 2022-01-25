@@ -208,6 +208,7 @@ tag app
 						<ul>
 							# <li> "Designed & implemented database architecture and backend with Django & SQLite"
 							<li> "Designed & implemented the app with Imba"
+							<li> "Used CodeMirror 6 for markdown editor"
 							<li> "Optimized for PWA"
 							<li> 'Hosted on GitHub Pages'
 
@@ -221,6 +222,15 @@ tag app
 							<li> "Designed and implemented frontend with Imba"
 							<li> 'Used PWA for better user experience'
 							<li> 'Hosted on GitHub Pages'
+
+					<section .experience>
+						<h3> 'FRONTEND DEVELOPER'
+						<h4>
+							<a[d:inline] target='_blank' href='https://khmer-typing.ericvida.com/'> 'KHMER TYPING GAME'							
+							' | 2021'
+						<ul>
+							<li> "Implemented frontend with Imba"
+							<li> 'Collaborated with designer'
 
 					<section .experience>
 						<h3> 'FRONTEND DEVELOPER'

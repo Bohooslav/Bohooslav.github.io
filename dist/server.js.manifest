@@ -378,7 +378,7 @@
   "public": true,
   "path": "public/__assets__/all.css",
   "asset": "$$42$$",
-  "hash": "GT8A63RJ",
+  "hash": "ZUWL1KUX",
   "originalPath": "all.__dist__.css",
   "url": "/__assets__/all.css"
 },
@@ -475,7 +475,7 @@
   "imports": [],
   "exports": [],
   "inputs": [],
-  "bytes": 87455,
+  "bytes": 87973,
   "source": "$$101$$",
   "_": "output",
   "path": "public/__assets__/app/client.js.map",
@@ -483,7 +483,7 @@
   "url": "/__assets__/app/client.js.map",
   "type": "map",
   "dependencies": [],
-  "hash": "GHQ27PUI"
+  "hash": "IIJCL8RB"
 },
 "$$46$$":{
   "imports": [],
@@ -496,7 +496,7 @@
     ],
     [
       "$$103$$",
-      3459
+      3465
     ],
     [
       "$$104$$",
@@ -532,10 +532,10 @@
     ],
     [
       "$$101$$",
-      29584
+      29941
     ]
   ],
-  "bytes": 48073,
+  "bytes": 48436,
   "map": "$$45$$",
   "source": "$$101$$",
   "css": "$$112$$",
@@ -545,7 +545,7 @@
   "url": "/__assets__/app/client.js",
   "type": "js",
   "dependencies": [],
-  "hash": "GHQ27PUI",
+  "hash": "IIJCL8RB",
   "originalPath": "app/client.__dist__.js"
 },
 "$$47$$":{
@@ -553,14 +553,14 @@
   "inputs": [
     [
       "$$113$$",
-      1672
+      1717
     ],
     [
       "$$114$$",
       1229
     ]
   ],
-  "bytes": 2902,
+  "bytes": 2947,
   "source": "$$115$$",
   "_": "output",
   "path": "public/__assets__/app/client.css",
@@ -568,7 +568,7 @@
   "url": "/__assets__/app/client.css",
   "type": "css",
   "dependencies": [],
-  "hash": "7ZJNADLM",
+  "hash": "MJXBLHVV",
   "originalPath": "app/client.__dist__.css"
 },
 "$$48$$":{
@@ -1560,7 +1560,7 @@
   "js": "$$44$$"
 },
 "$$101$$":{
-  "bytes": 84001,
+  "bytes": 85385,
   "imports": [
     "$$109$$",
     "$$165$$",
@@ -1641,7 +1641,7 @@
   "path": "styles:app/global_css.imba"
 },
 "$$111$$":{
-  "bytes": 1858,
+  "bytes": 1908,
   "imports": [],
   "_": "input",
   "path": "styles:app/client.imba"
@@ -1651,14 +1651,14 @@
   "inputs": [
     [
       "$$111$$",
-      1672
+      1717
     ],
     [
       "$$110$$",
       1229
     ]
   ],
-  "bytes": 2902,
+  "bytes": 2947,
   "source": "$$101$$",
   "_": "output",
   "path": "public/__assets__/app/client.css",
@@ -1666,11 +1666,11 @@
   "url": "/__assets__/app/client.css",
   "type": "css",
   "dependencies": [],
-  "hash": "7ZJNADLM",
+  "hash": "MJXBLHVV",
   "originalPath": "app/client.__dist__.css"
 },
 "$$113$$":{
-  "bytes": 1858,
+  "bytes": 1908,
   "imports": [],
   "_": "input",
   "path": "styles:app/client.imba"
@@ -1682,7 +1682,7 @@
   "path": "styles:app/global_css.imba"
 },
 "$$115$$":{
-  "bytes": 84001,
+  "bytes": 85385,
   "imports": [
     "$$168$$",
     "$$113$$"
@@ -2486,7 +2486,7 @@
     "/__assets__/all.css": "$$42$$"
   },
   "mappings": {},
-  "hash": "TWE9R4PS",
+  "hash": "AK0VKMLS",
   "srcdir": "..",
   "outdir": ".",
   "path": "server.js.manifest",
