@@ -248,10 +248,8 @@ tag app
 					<h4> 'UZHHOROD NATIONAL UNIVERSITY | 2017 - 2021'
 
 		<section .ambit .afterword>
-			<h1> 'OTHER SKILLS & EXPERIENCE or WHY AM I LOOSER or GARBAGE SECTION'
-			<p> "Beside works mentioned above, I have done some other webapps I can't show because they are dead.
-				They are no longer functioning. Among those are medok-n.com, koteus.com and one other unlucky app.
-				They were not successful but bring me a lot of experience"
+			<h1> 'OTHER SKILLS & EXPERIENCE'
+			<p> "Beside works mentioned above, I have done some other webapps, which were not successful but bring me a lot of experience"
 			<p> "The most prominent was koteus.com, working over which I did learn a lot about online shops --
 				{<b> 'SEO optimization'} of the website, {<b> 'microdata'}, {<b> 'PWA'}, fitting for {<b> 'Google Merchant'}"
 			<p> "One day frontend project {<a [fw:bold] href='https://bohuslav.me/barbershop/dist'> 'Barbershop'}"
