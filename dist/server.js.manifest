@@ -378,7 +378,7 @@
   "public": true,
   "path": "public/__assets__/all.css",
   "asset": "$$42$$",
-  "hash": "EUFI2OYR",
+  "hash": "GT8A63RJ",
   "originalPath": "all.__dist__.css",
   "url": "/__assets__/all.css"
 },
@@ -473,110 +473,110 @@
 },
 "$$45$$":{
   "imports": [],
-  "inputs": [
-    [
-      "$$101$$",
-      1775
-    ],
-    [
-      "$$102$$",
-      1229
-    ]
-  ],
-  "bytes": 3005,
-  "source": "$$103$$",
-  "_": "output",
-  "path": "public/__assets__/app/client.css",
-  "public": true,
-  "url": "/__assets__/app/client.css",
-  "type": "css",
-  "dependencies": [],
-  "hash": "7BDWLZTB",
-  "originalPath": "app/client.__dist__.css"
-},
-"$$46$$":{
-  "imports": [],
   "exports": [],
   "inputs": [],
-  "bytes": 66203,
-  "source": "$$103$$",
+  "bytes": 87455,
+  "source": "$$101$$",
   "_": "output",
   "path": "public/__assets__/app/client.js.map",
   "public": true,
   "url": "/__assets__/app/client.js.map",
   "type": "map",
   "dependencies": [],
-  "hash": "AIEAHKAS"
+  "hash": "GHQ27PUI"
 },
-"$$47$$":{
+"$$46$$":{
   "imports": [],
   "exports": [],
   "entryPoint": "app/client.imba",
   "inputs": [
     [
-      "$$104$$",
+      "$$102$$",
       251
     ],
     [
-      "$$105$$",
+      "$$103$$",
       3459
     ],
     [
-      "$$106$$",
+      "$$104$$",
       1242
     ],
     [
-      "$$107$$",
+      "$$105$$",
       932
     ],
     [
-      "$$108$$",
-      7792
+      "$$106$$",
+      7798
     ],
     [
-      "$$109$$",
+      "$$107$$",
       4275
     ],
     [
-      "$$110$$",
+      "$$108$$",
       438
+    ],
+    [
+      "$$109$$",
+      0
+    ],
+    [
+      "$$110$$",
+      0
     ],
     [
       "$$111$$",
       0
     ],
     [
-      "$$102$$",
-      0
-    ],
-    [
       "$$101$$",
-      0
-    ],
-    [
-      "$$103$$",
-      10880
+      29584
     ]
   ],
-  "bytes": 29363,
-  "map": "$$46$$",
-  "source": "$$103$$",
-  "css": "$$45$$",
+  "bytes": 48073,
+  "map": "$$45$$",
+  "source": "$$101$$",
+  "css": "$$112$$",
   "_": "output",
   "path": "public/__assets__/app/client.js",
   "public": true,
   "url": "/__assets__/app/client.js",
   "type": "js",
   "dependencies": [],
-  "hash": "AIEAHKAS",
+  "hash": "GHQ27PUI",
   "originalPath": "app/client.__dist__.js"
+},
+"$$47$$":{
+  "imports": [],
+  "inputs": [
+    [
+      "$$113$$",
+      1672
+    ],
+    [
+      "$$114$$",
+      1229
+    ]
+  ],
+  "bytes": 2902,
+  "source": "$$115$$",
+  "_": "output",
+  "path": "public/__assets__/app/client.css",
+  "public": true,
+  "url": "/__assets__/app/client.css",
+  "type": "css",
+  "dependencies": [],
+  "hash": "7ZJNADLM",
+  "originalPath": "app/client.__dist__.css"
 },
 "$$48$$":{
   "imports": [],
   "exports": [],
   "inputs": [
     [
-      "$$112$$",
+      "$$116$$",
       63588
     ]
   ],
@@ -595,7 +595,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$113$$",
+      "$$117$$",
       87132
     ]
   ],
@@ -615,7 +615,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$114$$",
+      "$$118$$",
       65488
     ]
   ],
@@ -634,7 +634,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$115$$",
+      "$$119$$",
       89720
     ]
   ],
@@ -654,7 +654,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$116$$",
+      "$$120$$",
       64564
     ]
   ],
@@ -673,7 +673,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$117$$",
+      "$$121$$",
       87648
     ]
   ],
@@ -693,7 +693,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$118$$",
+      "$$122$$",
       63172
     ]
   ],
@@ -712,7 +712,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$119$$",
+      "$$123$$",
       86172
     ]
   ],
@@ -732,7 +732,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$120$$",
+      "$$124$$",
       62028
     ]
   ],
@@ -751,7 +751,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$121$$",
+      "$$125$$",
       85340
     ]
   ],
@@ -771,7 +771,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$122$$",
+      "$$126$$",
       64352
     ]
   ],
@@ -790,7 +790,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$123$$",
+      "$$127$$",
       88184
     ]
   ],
@@ -810,7 +810,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$124$$",
+      "$$128$$",
       64904
     ]
   ],
@@ -829,7 +829,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$125$$",
+      "$$129$$",
       87752
     ]
   ],
@@ -849,7 +849,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$126$$",
+      "$$130$$",
       61732
     ]
   ],
@@ -868,7 +868,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$127$$",
+      "$$131$$",
       85336
     ]
   ],
@@ -888,7 +888,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$128$$",
+      "$$132$$",
       65688
     ]
   ],
@@ -907,7 +907,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$129$$",
+      "$$133$$",
       89596
     ]
   ],
@@ -927,7 +927,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$130$$",
+      "$$134$$",
       62476
     ]
   ],
@@ -946,7 +946,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$131$$",
+      "$$135$$",
       85716
     ]
   ],
@@ -966,7 +966,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$132$$",
+      "$$136$$",
       64376
     ]
   ],
@@ -985,7 +985,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$133$$",
+      "$$137$$",
       88040
     ]
   ],
@@ -1005,7 +1005,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$134$$",
+      "$$138$$",
       62916
     ]
   ],
@@ -1024,7 +1024,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$135$$",
+      "$$139$$",
       86488
     ]
   ],
@@ -1044,7 +1044,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$136$$",
+      "$$140$$",
       64852
     ]
   ],
@@ -1063,7 +1063,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$137$$",
+      "$$141$$",
       87796
     ]
   ],
@@ -1083,7 +1083,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$138$$",
+      "$$142$$",
       65664
     ]
   ],
@@ -1102,7 +1102,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$139$$",
+      "$$143$$",
       89368
     ]
   ],
@@ -1122,7 +1122,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$140$$",
+      "$$144$$",
       63260
     ]
   ],
@@ -1141,7 +1141,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$141$$",
+      "$$145$$",
       86828
     ]
   ],
@@ -1161,7 +1161,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$142$$",
+      "$$146$$",
       61464
     ]
   ],
@@ -1180,7 +1180,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$143$$",
+      "$$147$$",
       84264
     ]
   ],
@@ -1200,7 +1200,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$144$$",
+      "$$148$$",
       59572
     ]
   ],
@@ -1219,7 +1219,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$145$$",
+      "$$149$$",
       82720
     ]
   ],
@@ -1239,7 +1239,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$146$$",
+      "$$150$$",
       64580
     ]
   ],
@@ -1258,7 +1258,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$147$$",
+      "$$151$$",
       87976
     ]
   ],
@@ -1278,7 +1278,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$148$$",
+      "$$152$$",
       38276
     ]
   ],
@@ -1297,7 +1297,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$149$$",
+      "$$153$$",
       51292
     ]
   ],
@@ -1317,7 +1317,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$150$$",
+      "$$154$$",
       38016
     ]
   ],
@@ -1336,7 +1336,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$151$$",
+      "$$155$$",
       50872
     ]
   ],
@@ -1356,7 +1356,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$152$$",
+      "$$156$$",
       38628
     ]
   ],
@@ -1375,7 +1375,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$153$$",
+      "$$157$$",
       51892
     ]
   ],
@@ -1395,7 +1395,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$154$$",
+      "$$158$$",
       38964
     ]
   ],
@@ -1414,7 +1414,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$155$$",
+      "$$159$$",
       52156
     ]
   ],
@@ -1434,7 +1434,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$156$$",
+      "$$160$$",
       38652
     ]
   ],
@@ -1453,7 +1453,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$157$$",
+      "$$161$$",
       52124
     ]
   ],
@@ -1473,7 +1473,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$158$$",
+      "$$162$$",
       37812
     ]
   ],
@@ -1492,7 +1492,7 @@
   "exports": [],
   "inputs": [
     [
-      "$$159$$",
+      "$$163$$",
       50820
     ]
   ],
@@ -1512,12 +1512,12 @@
   "entryPoint": "app/fonts/fonts.css",
   "inputs": [
     [
-      "$$160$$",
+      "$$164$$",
       6924
     ]
   ],
   "bytes": 6925,
-  "source": "$$160$$",
+  "source": "$$164$$",
   "_": "output",
   "path": "public/__assets__/app/fonts/fonts.css",
   "public": true,
@@ -1532,7 +1532,7 @@
   "imports": [],
   "_": "input",
   "path": "entry:app/client.imba?as=css",
-  "asset": "$$161$$"
+  "asset": "$$47$$"
 },
 "$$98$$":{
   "bytes": 32,
@@ -1546,7 +1546,7 @@
   "imports": [],
   "_": "input",
   "path": "entry:app/client.imba?as=web",
-  "asset": "$$47$$"
+  "asset": "$$46$$"
 },
 "$$100$$":{
   "bytes": 769,
@@ -1560,387 +1560,428 @@
   "js": "$$44$$"
 },
 "$$101$$":{
-  "bytes": 1971,
-  "imports": [],
-  "_": "input",
-  "path": "styles:app/client.imba"
-},
-"$$102$$":{
-  "bytes": 1398,
-  "imports": [],
-  "_": "input",
-  "path": "styles:app/global_css.imba"
-},
-"$$103$$":{
-  "bytes": 35154,
+  "bytes": 84001,
   "imports": [
-    "$$111$$",
-    "$$162$$",
-    "$$101$$"
+    "$$109$$",
+    "$$165$$",
+    "$$111$$"
   ],
   "_": "input",
   "path": "app/client.imba",
-  "js": "$$47$$",
-  "css": "$$45$$",
-  "map": "$$46$$"
+  "js": "$$46$$",
+  "css": "$$112$$",
+  "map": "$$45$$"
 },
-"$$104$$":{
+"$$102$$":{
   "bytes": 24511,
   "imports": [],
   "_": "input",
   "path": "node_modules/imba/src/imba/utils.imba"
 },
-"$$105$$":{
+"$$103$$":{
   "bytes": 21187,
   "imports": [],
   "_": "input",
   "path": "node_modules/imba/src/imba/scheduler.imba"
 },
-"$$106$$":{
+"$$104$$":{
   "bytes": 8071,
   "imports": [],
   "_": "input",
   "path": "node_modules/imba/src/imba/dom/flags.imba"
 },
-"$$107$$":{
+"$$105$$":{
   "bytes": 6654,
   "imports": [],
   "_": "input",
   "path": "node_modules/imba/src/imba/dom/context.imba"
 },
-"$$108$$":{
+"$$106$$":{
   "bytes": 61103,
   "imports": [
-    "$$106$$",
     "$$104$$",
-    "$$107$$"
+    "$$102$$",
+    "$$105$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/dom/core.web.imba"
 },
-"$$109$$":{
+"$$107$$":{
   "bytes": 31321,
   "imports": [
-    "$$108$$",
-    "$$163$$",
-    "$$105$$",
-    "$$107$$"
+    "$$106$$",
+    "$$166$$",
+    "$$103$$",
+    "$$105$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/dom/component.imba"
 },
-"$$110$$":{
+"$$108$$":{
   "bytes": 5161,
   "imports": [
-    "$$107$$",
-    "$$105$$"
+    "$$105$$",
+    "$$103$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/dom/mount.imba"
 },
-"$$111$$":{
+"$$109$$":{
   "bytes": 361,
   "imports": [
-    "$$164$$"
+    "$$167$$"
   ],
   "_": "input",
   "path": "node_modules/imba/index.imba"
 },
+"$$110$$":{
+  "bytes": 1398,
+  "imports": [],
+  "_": "input",
+  "path": "styles:app/global_css.imba"
+},
+"$$111$$":{
+  "bytes": 1858,
+  "imports": [],
+  "_": "input",
+  "path": "styles:app/client.imba"
+},
 "$$112$$":{
+  "imports": [],
+  "inputs": [
+    [
+      "$$111$$",
+      1672
+    ],
+    [
+      "$$110$$",
+      1229
+    ]
+  ],
+  "bytes": 2902,
+  "source": "$$101$$",
+  "_": "output",
+  "path": "public/__assets__/app/client.css",
+  "public": true,
+  "url": "/__assets__/app/client.css",
+  "type": "css",
+  "dependencies": [],
+  "hash": "7ZJNADLM",
+  "originalPath": "app/client.__dist__.css"
+},
+"$$113$$":{
+  "bytes": 1858,
+  "imports": [],
+  "_": "input",
+  "path": "styles:app/client.imba"
+},
+"$$114$$":{
+  "bytes": 1398,
+  "imports": [],
+  "_": "input",
+  "path": "styles:app/global_css.imba"
+},
+"$$115$$":{
+  "bytes": 84001,
+  "imports": [
+    "$$168$$",
+    "$$113$$"
+  ],
+  "_": "input",
+  "path": "app/client.imba",
+  "css": "$$47$$"
+},
+"$$116$$":{
   "bytes": 63588,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-BlackItalic.woff2"
 },
-"$$113$$":{
+"$$117$$":{
   "bytes": 87132,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-BlackItalic.woff"
 },
-"$$114$$":{
+"$$118$$":{
   "bytes": 65488,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-ExtraBoldItalic.woff2"
 },
-"$$115$$":{
+"$$119$$":{
   "bytes": 89720,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-ExtraBoldItalic.woff"
 },
-"$$116$$":{
+"$$120$$":{
   "bytes": 64564,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-ExtraLightItalic.woff2"
 },
-"$$117$$":{
+"$$121$$":{
   "bytes": 87648,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-ExtraLightItalic.woff"
 },
-"$$118$$":{
+"$$122$$":{
   "bytes": 63172,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-MediumItalic.woff2"
 },
-"$$119$$":{
+"$$123$$":{
   "bytes": 86172,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-MediumItalic.woff"
 },
-"$$120$$":{
+"$$124$$":{
   "bytes": 62028,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-Medium.woff2"
 },
-"$$121$$":{
+"$$125$$":{
   "bytes": 85340,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-Medium.woff"
 },
-"$$122$$":{
+"$$126$$":{
   "bytes": 64352,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-Bold.woff2"
 },
-"$$123$$":{
+"$$127$$":{
   "bytes": 88184,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-Bold.woff"
 },
-"$$124$$":{
+"$$128$$":{
   "bytes": 64904,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-Italic.woff2"
 },
-"$$125$$":{
+"$$129$$":{
   "bytes": 87752,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-Italic.woff"
 },
-"$$126$$":{
+"$$130$$":{
   "bytes": 61732,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-Black.woff2"
 },
-"$$127$$":{
+"$$131$$":{
   "bytes": 85336,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-Black.woff"
 },
-"$$128$$":{
+"$$132$$":{
   "bytes": 65688,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-BoldItalic.woff2"
 },
-"$$129$$":{
+"$$133$$":{
   "bytes": 89596,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-BoldItalic.woff"
 },
-"$$130$$":{
+"$$134$$":{
   "bytes": 62476,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-ExtraLight.woff2"
 },
-"$$131$$":{
+"$$135$$":{
   "bytes": 85716,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-ExtraLight.woff"
 },
-"$$132$$":{
+"$$136$$":{
   "bytes": 64376,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-ExtraBold.woff2"
 },
-"$$133$$":{
+"$$137$$":{
   "bytes": 88040,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-ExtraBold.woff"
 },
-"$$134$$":{
+"$$138$$":{
   "bytes": 62916,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-Light.woff2"
 },
-"$$135$$":{
+"$$139$$":{
   "bytes": 86488,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-Light.woff"
 },
-"$$136$$":{
+"$$140$$":{
   "bytes": 64852,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-LightItalic.woff2"
 },
-"$$137$$":{
+"$$141$$":{
   "bytes": 87796,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-LightItalic.woff"
 },
-"$$138$$":{
+"$$142$$":{
   "bytes": 65664,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-SemiBoldItalic.woff2"
 },
-"$$139$$":{
+"$$143$$":{
   "bytes": 89368,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-SemiBoldItalic.woff"
 },
-"$$140$$":{
+"$$144$$":{
   "bytes": 63260,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-Regular.woff2"
 },
-"$$141$$":{
+"$$145$$":{
   "bytes": 86828,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-Regular.woff"
 },
-"$$142$$":{
+"$$146$$":{
   "bytes": 61464,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-ThinItalic.woff2"
 },
-"$$143$$":{
+"$$147$$":{
   "bytes": 84264,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-ThinItalic.woff"
 },
-"$$144$$":{
+"$$148$$":{
   "bytes": 59572,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-Thin.woff2"
 },
-"$$145$$":{
+"$$149$$":{
   "bytes": 82720,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-Thin.woff"
 },
-"$$146$$":{
+"$$150$$":{
   "bytes": 64580,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-SemiBold.woff2"
 },
-"$$147$$":{
+"$$151$$":{
   "bytes": 87976,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Raleway-SemiBold.woff"
 },
-"$$148$$":{
+"$$152$$":{
   "bytes": 38276,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Oswald-Light.woff2"
 },
-"$$149$$":{
+"$$153$$":{
   "bytes": 51292,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Oswald-Light.woff"
 },
-"$$150$$":{
+"$$154$$":{
   "bytes": 38016,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Oswald-ExtraLight.woff2"
 },
-"$$151$$":{
+"$$155$$":{
   "bytes": 50872,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Oswald-ExtraLight.woff"
 },
-"$$152$$":{
+"$$156$$":{
   "bytes": 38628,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Oswald-Bold.woff2"
 },
-"$$153$$":{
+"$$157$$":{
   "bytes": 51892,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Oswald-Bold.woff"
 },
-"$$154$$":{
+"$$158$$":{
   "bytes": 38964,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Oswald-Medium.woff2"
 },
-"$$155$$":{
+"$$159$$":{
   "bytes": 52156,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Oswald-Medium.woff"
 },
-"$$156$$":{
+"$$160$$":{
   "bytes": 38652,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Oswald-SemiBold.woff2"
 },
-"$$157$$":{
+"$$161$$":{
   "bytes": 52124,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Oswald-SemiBold.woff"
 },
-"$$158$$":{
+"$$162$$":{
   "bytes": 37812,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Oswald-Regular.woff2"
 },
-"$$159$$":{
+"$$163$$":{
   "bytes": 50820,
   "imports": [],
   "_": "input",
   "path": "app/fonts/Oswald-Regular.woff"
 },
-"$$160$$":{
+"$$164$$":{
   "bytes": 6876,
   "imports": [
-    "$$112$$",
-    "$$113$$",
-    "$$114$$",
-    "$$115$$",
     "$$116$$",
     "$$117$$",
     "$$118$$",
@@ -1984,69 +2025,49 @@
     "$$156$$",
     "$$157$$",
     "$$158$$",
-    "$$159$$"
+    "$$159$$",
+    "$$160$$",
+    "$$161$$",
+    "$$162$$",
+    "$$163$$"
   ],
   "_": "input",
   "path": "app/fonts/fonts.css",
   "css": "$$96$$"
 },
-"$$161$$":{
-  "imports": [],
-  "inputs": [
-    [
-      "$$165$$",
-      1775
-    ],
-    [
-      "$$166$$",
-      1229
-    ]
-  ],
-  "bytes": 3005,
-  "source": "$$167$$",
-  "_": "output",
-  "path": "public/__assets__/app/client.css",
-  "public": true,
-  "url": "/__assets__/app/client.css",
-  "type": "css",
-  "dependencies": [],
-  "hash": "7BDWLZTB",
-  "originalPath": "app/client.__dist__.css"
-},
-"$$162$$":{
+"$$165$$":{
   "bytes": 2147,
   "imports": [
-    "$$102$$"
+    "$$110$$"
   ],
   "_": "input",
   "path": "app/global_css.imba"
 },
-"$$163$$":{
+"$$166$$":{
   "bytes": 24499,
   "imports": [
-    "$$108$$",
-    "$$106$$"
+    "$$106$$",
+    "$$104$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/dom/fragment.imba"
 },
-"$$164$$":{
+"$$167$$":{
   "bytes": 3000,
   "imports": [
-    "$$104$$",
-    "$$105$$",
-    "$$168$$",
+    "$$102$$",
+    "$$103$$",
     "$$169$$",
     "$$170$$",
-    "$$108$$",
-    "$$163$$",
     "$$171$$",
+    "$$106$$",
+    "$$166$$",
     "$$172$$",
-    "$$109$$",
     "$$173$$",
     "$$107$$",
-    "$$110$$",
     "$$174$$",
+    "$$105$$",
+    "$$108$$",
     "$$175$$",
     "$$176$$",
     "$$177$$",
@@ -2058,215 +2079,194 @@
     "$$183$$",
     "$$184$$",
     "$$185$$",
-    "$$186$$"
+    "$$186$$",
+    "$$187$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/imba.imba"
 },
-"$$165$$":{
-  "bytes": 1971,
-  "imports": [],
-  "_": "input",
-  "path": "styles:app/client.imba"
-},
-"$$166$$":{
-  "bytes": 1398,
-  "imports": [],
-  "_": "input",
-  "path": "styles:app/global_css.imba"
-},
-"$$167$$":{
-  "bytes": 35154,
+"$$168$$":{
+  "bytes": 2147,
   "imports": [
-    "$$187$$",
-    "$$165$$"
+    "$$114$$"
   ],
   "_": "input",
-  "path": "app/client.imba",
-  "css": "$$161$$"
+  "path": "app/global_css.imba"
 },
-"$$168$$":{
+"$$169$$":{
   "bytes": 750,
   "imports": [],
   "_": "input",
   "path": "node_modules/imba/src/imba/manifest.web.imba"
 },
-"$$169$$":{
+"$$170$$":{
   "bytes": 370,
   "imports": [],
   "_": "input",
   "path": "node_modules/imba/src/imba/process.web.imba"
 },
-"$$170$$":{
+"$$171$$":{
   "bytes": 7538,
   "imports": [
-    "$$168$$"
+    "$$169$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/asset.imba"
 },
-"$$171$$":{
+"$$172$$":{
   "bytes": 8766,
   "imports": [
-    "$$108$$",
-    "$$163$$"
+    "$$106$$",
+    "$$166$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/dom/indexed-list.imba"
 },
-"$$172$$":{
+"$$173$$":{
   "bytes": 16401,
   "imports": [
-    "$$108$$",
-    "$$163$$",
-    "$$107$$"
+    "$$106$$",
+    "$$166$$",
+    "$$105$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/dom/keyed-list.imba"
 },
-"$$173$$":{
+"$$174$$":{
   "bytes": 35238,
   "imports": [
-    "$$108$$"
+    "$$106$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/dom/styles.imba"
 },
-"$$174$$":{
+"$$175$$":{
   "bytes": 28945,
   "imports": [
-    "$$108$$",
-    "$$105$$"
+    "$$106$$",
+    "$$103$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/dom/bind.imba"
 },
-"$$175$$":{
+"$$176$$":{
   "bytes": 11572,
   "imports": [
-    "$$108$$",
-    "$$109$$",
-    "$$163$$"
+    "$$106$$",
+    "$$107$$",
+    "$$166$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/dom/teleport.imba"
 },
-"$$176$$":{
+"$$177$$":{
   "bytes": 31540,
   "imports": [
-    "$$108$$"
+    "$$106$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/dom/transitions.imba"
 },
-"$$177$$":{
+"$$178$$":{
   "bytes": 42719,
   "imports": [
-    "$$108$$",
-    "$$104$$",
-    "$$105$$",
-    "$$179$$",
-    "$$178$$"
+    "$$106$$",
+    "$$102$$",
+    "$$103$$",
+    "$$180$$",
+    "$$179$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/events/core.imba"
 },
-"$$178$$":{
+"$$179$$":{
   "bytes": 2655,
   "imports": [
-    "$$108$$"
+    "$$106$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/events/mouse.imba"
 },
-"$$179$$":{
+"$$180$$":{
   "bytes": 3218,
   "imports": [
-    "$$108$$"
+    "$$106$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/events/keyboard.imba"
 },
-"$$180$$":{
+"$$181$$":{
   "bytes": 3093,
   "imports": [
-    "$$108$$",
-    "$$104$$",
-    "$$178$$",
+    "$$106$$",
+    "$$102$$",
+    "$$179$$",
     "$$188$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/events/pointer.imba"
 },
-"$$181$$":{
+"$$182$$":{
   "bytes": 64659,
   "imports": [
-    "$$108$$",
-    "$$104$$",
+    "$$106$$",
+    "$$102$$",
     "$$188$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/events/touch.imba"
 },
-"$$182$$":{
+"$$183$$":{
   "bytes": 13806,
   "imports": [
-    "$$108$$",
+    "$$106$$",
     "$$188$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/events/intersect.imba"
 },
-"$$183$$":{
+"$$184$$":{
   "bytes": 7459,
   "imports": [
-    "$$108$$",
+    "$$106$$",
     "$$188$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/events/resize.imba"
 },
-"$$184$$":{
+"$$185$$":{
   "bytes": 3799,
   "imports": [
-    "$$108$$"
+    "$$106$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/events/selection.imba"
 },
-"$$185$$":{
+"$$186$$":{
   "bytes": 22821,
   "imports": [
-    "$$108$$",
+    "$$106$$",
     "$$189$$",
     "$$190$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/events/hotkey.imba"
 },
-"$$186$$":{
+"$$187$$":{
   "bytes": 49959,
   "imports": [
     "$$191$$",
-    "$$108$$",
+    "$$106$$",
     "$$192$$",
     "$$193$$",
     "$$194$$",
     "$$195$$",
-    "$$105$$",
-    "$$104$$",
+    "$$103$$",
+    "$$102$$",
     "$$196$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/router/index.imba"
-},
-"$$187$$":{
-  "bytes": 2147,
-  "imports": [
-    "$$166$$"
-  ],
-  "_": "input",
-  "path": "app/global_css.imba"
 },
 "$$188$$":{
   "bytes": 8214,
@@ -2321,7 +2321,7 @@
 "$$196$$":{
   "bytes": 5004,
   "imports": [
-    "$$104$$"
+    "$$102$$"
   ],
   "_": "input",
   "path": "node_modules/imba/src/imba/queue.imba"
@@ -2375,9 +2375,9 @@
   "outputs": {
     "server.js": "$$43$$",
     "public/index.html": "$$44$$",
-    "public/__assets__/app/client.css": "$$45$$",
-    "public/__assets__/app/client.js.map": "$$46$$",
-    "public/__assets__/app/client.js": "$$47$$",
+    "public/__assets__/app/client.js.map": "$$45$$",
+    "public/__assets__/app/client.js": "$$46$$",
+    "public/__assets__/app/client.css": "$$47$$",
     "public/__assets__/Raleway-BlackItalic-UNPJV5P4.woff2": "$$48$$",
     "public/__assets__/Raleway-BlackItalic-HY7I57AJ.woff": "$$49$$",
     "public/__assets__/Raleway-ExtraBoldItalic-UXUE4UJX.woff2": "$$50$$",
@@ -2431,9 +2431,9 @@
   },
   "urls": {
     "/app/index.html": "$$44$$",
-    "/__assets__/app/client.css": "$$45$$",
-    "/__assets__/app/client.js.map": "$$46$$",
-    "/__assets__/app/client.js": "$$47$$",
+    "/__assets__/app/client.js.map": "$$45$$",
+    "/__assets__/app/client.js": "$$46$$",
+    "/__assets__/app/client.css": "$$47$$",
     "/__assets__/Raleway-BlackItalic-UNPJV5P4.woff2": "$$48$$",
     "/__assets__/Raleway-BlackItalic-HY7I57AJ.woff": "$$49$$",
     "/__assets__/Raleway-ExtraBoldItalic-UXUE4UJX.woff2": "$$50$$",
@@ -2486,7 +2486,7 @@
     "/__assets__/all.css": "$$42$$"
   },
   "mappings": {},
-  "hash": "O81RGYAT",
+  "hash": "TWE9R4PS",
   "srcdir": "..",
   "outdir": ".",
   "path": "server.js.manifest",
