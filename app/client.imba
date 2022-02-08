@@ -182,10 +182,10 @@ tag app
 							<a[d:inline] target='_blank' href='https://BOLLS.LIFE'> 'BOLLS.LIFE'
 							' | SEP 2019 - PRESENT'
 						<ul>
-							<li> "Designed & implemented database architecture with PostgreSQL and backend with Django"
-							<li> "Designed & implemented UI/UX/frontend with Imba"
-							<li> "Optimized the app for PWA and SEO, made better offline experience with IndexedDB integration"
-							<li> "Maintain backend on Google App Engine and PostgreSQL database on a VPS"
+							<li> "Designed & implemented database architecture with {<b> "PostgreSQL"} and backend with {<b> "Django"}"
+							<li> "Designed & implemented UI/UX/frontend with {<b> "Imba"}"
+							<li> "Optimized the app for {<b> "PWA"} and {<b> "SEO"}, made better offline experience with {<b> "IndexedDB"} integration"
+							<li> "Maintain backend on {<b> "Google App Engine"} and {<b> "PostgreSQL"} database on a VPS"
 							<li> 'Released to Microsoft Store, Snap Store, Huawei App Gallery, Google Play Market and Flathub'
 
 					<section .experience>
@@ -195,22 +195,21 @@ tag app
 							<a[d:inline] target='_blank' href='https://MGRESTYLE.SK'> 'MGRESTYLE.SK'
 							' | FEB 2020 - APR 2020'
 						<ul>
-							<li> "Designed & implemented database architecture and backend with Django & SQLite"
+							<li> "Designed & implemented database architecture and backend with {<b> "Django & SQLite"}"
 							<li> "Implemented frontend with Vue.js & Nuxt.js"
 
 					<section .experience>
 						<h3>
 							'FRONTEND DEVELOPER'
-							<span[c:red5]> ' DRAFT'
 						<h4>
-							<a[d:inline] target='_blank' href='https://BOHUSLAV.ME/notepad'> 'BOLLSPAD'
+							<a[d:inline] target='_blank' href='https://quikpad.bohuslav.me/'> 'QUIKPAD'
 							' | 2022'
 						<ul>
-							# <li> "Designed & implemented database architecture and backend with Django & SQLite"
-							<li> "Designed & implemented the app with Imba"
-							<li> "Used CodeMirror 6 for markdown editor"
-							<li> "Optimized for PWA"
-							<li> 'Hosted on GitHub Pages'
+							<li> "Designed & implemented the app frontend with {<b> "Imba"}"
+							<li> "Used {<b> "CodeMirror 6"} for markdown editor"
+							<li> "Optimized for {<b> "PWA"}"
+							<li> "Designed & implemented backend with {<b> "Django"}, {<b> "Django Channels"}, {<b> "Websockets"}"
+							<li> "Deployed the {<b> "ASGI"} app on a VPS with {<b> "Docker"}, {<b> "Docker Compose"}, {<b> "Nginx"}, {<b> "Traefik"}, {<b> "Redis"} & {<b> "PostgreSQL"}"
 
 					<section .experience>
 						<h3> 'FRONTEND DEVELOPER'
@@ -219,9 +218,9 @@ tag app
 							<a[d:inline] target='_blank' href='https://SONGBOOK.CLUB'> 'SONGBOOK.CLUB'							
 							' | 2021'
 						<ul>
-							<li> "Designed and implemented frontend with Imba"
-							<li> 'Used PWA for better user experience'
-							<li> 'Hosted on GitHub Pages'
+							<li> "Designed and implemented frontend with {<b> "Imba"}"
+							<li> "Used {<b> "PWA"} for better user experience"
+							<li> "Hosted on {<b> "GitHub Pages"}"
 
 					<section .experience>
 						<h3> 'FRONTEND DEVELOPER'
@@ -229,7 +228,7 @@ tag app
 							<a[d:inline] target='_blank' href='https://khmer-typing.ericvida.com/'> 'KHMER TYPING GAME'							
 							' | 2021'
 						<ul>
-							<li> "Implemented frontend with Imba"
+							<li> "Implemented frontend with {<b> "Imba"}"
 							<li> 'Collaborated with designer'
 
 					<section .experience>
@@ -238,9 +237,9 @@ tag app
 							<a[d:inline] target='_blank' href='https://BOHUSLAV.ME/Dictionary'> 'DICTIONARY'
 							' | 2021'
 						<ul>
-							<li> "Designed and implemented frontend with Imba"
-							<li> 'Used PWA for better user experience'
-							<li> 'Hosted on GitHub Pages'
+							<li> "Designed and implemented frontend with {<b> "Imba"}"
+							<li> "Used {<b> "PWA"} for better user experience"
+							<li> "Hosted on {<b> "GitHub Pages"}"
 
 					<section .experience>
 						<h3> 'FRONTEND DEVELOPER'
@@ -249,7 +248,7 @@ tag app
 							' | 2019'
 						<ul>
 							<li> "Designed and implemented frontend with Imba 1"
-							<li> 'Hosted on GitHub Pages'
+							<li> "Hosted on {<b> "GitHub Pages"}"
 
 
 				<article .block>
