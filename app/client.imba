@@ -246,15 +246,6 @@ tag app
 							<li> "Used {<strong> "PWA"} for better user experience"
 							<li> "Hosted on {<strong> "GitHub Pages"}"
 
-					<section .experience>
-						<h3> 'FRONTEND DEVELOPER'
-						<h4>
-							<a[d:inline] target='_blank' href='https://bohuslav.me/poopsssweemer/dist/'> 'POOPSSSWEEMER'
-							' | 2019'
-						<ul>
-							<li> "Designed and implemented frontend with Imba 1"
-							<li> "Hosted on {<strong> "GitHub Pages"}"
-
 
 				<article .block>
 					<h2> "EDUCATION"
@@ -268,6 +259,8 @@ tag app
 				{<strong> 'SEO optimization'} of the website, {<strong> 'microdata'}, {<strong> 'PWA'}, fitting for {<strong> 'Google Merchant'}"
 			
 			<h2[fs:1.2em mb:0px]> 'OTHER SMALL PROJECTS'
+			<p> "My first project — a small game {<a[d:inline fw:bold] target='_blank' href='https://bohuslav.me/poopsssweemer/dist/'> 'Poopsssweemer'}.
+				Designed & implemented with Imba 1 in summer 2019"
 			<p> "One day frontend project {<a [fw:bold] href='https://bohuslav.me/barbershop/dist'> 'Barbershop'}"
 			<p> <a [fw:bold] href='https://bohuslav.me/gesenius/'> 'Gesenius\' Hebrew Grammar'
 			<p> 'I live in Khust, Ukraine. I love to code, design, play on violin, listen classical music, run on mountains and pet cats.'
