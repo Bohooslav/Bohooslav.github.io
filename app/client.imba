@@ -187,11 +187,24 @@ tag app
 							<a[d:inline] target='_blank' href='https://BOLLS.LIFE'> 'BOLLS.LIFE'
 							' | SEP 2019 - PRESENT'
 						<ul>
-							<li> "Designed & implemented database architecture with {<b> "PostgreSQL"} and backend with {<b> "Django"}"
-							<li> "Designed & implemented UI/UX/frontend with {<b> "Imba"}"
-							<li> "Optimized the app for {<b> "PWA"} and {<b> "SEO"}, made better offline experience with {<b> "IndexedDB"} integration"
-							<li> "Maintain backend on {<b> "Google App Engine"} and {<b> "PostgreSQL"} database on a VPS"
+							<li> "Designed & implemented database architecture with {<strong> "PostgreSQL"} and backend with {<strong> "Django"}"
+							<li> "Designed & implemented UI/UX/frontend with {<strong> "Imba"}"
+							<li> "Optimized the app for {<strong> "PWA"} and {<strong> "SEO"}, made better offline experience with {<strong> "IndexedDB"} integration"
+							<li> "Maintain backend on {<strong> "Google App Engine"} and {<strong> "PostgreSQL"} database on a VPS"
 							<li> 'Released to Microsoft Store, Snap Store, Huawei App Gallery, Google Play Market and Flathub'
+
+					<section .experience>
+						<h3>
+							'FULLSTACK DEVELOPER'
+						<h4>
+							<a[d:inline] target='_blank' href='https://quikpad.bohuslav.me/'> 'QUIKPAD'
+							' | 2022'
+						<ul>
+							<li> "Designed & implemented the app frontend with {<strong> "Imba"}"
+							<li> "Used {<strong> "CodeMirror 6"} for markdown editor"
+							<li> "Optimized for {<strong> "PWA"}"
+							<li> "Designed & implemented backend with {<strong> "Django"}, {<strong> "Django Channels"}, {<strong> "Websockets"}"
+							<li> "Deployed the {<strong> "ASGI"} app on a VPS with {<strong> "Docker"}, {<strong> "Docker Compose"}, {<strong> "Nginx"}, {<strong> "Traefik"}, {<strong> "Redis"} & {<strong> "PostgreSQL"}"
 
 					<section .experience>
 						<h3> 'FULLSTACK DEVELOPER'
@@ -200,21 +213,8 @@ tag app
 							<a[d:inline] target='_blank' href='https://MGRESTYLE.SK'> 'MGRESTYLE.SK'
 							' | FEB 2020 - APR 2020'
 						<ul>
-							<li> "Designed & implemented database architecture and backend with {<b> "Django & SQLite"}"
+							<li> "Designed & implemented database architecture and backend with {<strong> "Django & SQLite"}"
 							<li> "Implemented frontend with Vue.js & Nuxt.js"
-
-					<section .experience>
-						<h3>
-							'FRONTEND DEVELOPER'
-						<h4>
-							<a[d:inline] target='_blank' href='https://quikpad.bohuslav.me/'> 'QUIKPAD'
-							' | 2022'
-						<ul>
-							<li> "Designed & implemented the app frontend with {<b> "Imba"}"
-							<li> "Used {<b> "CodeMirror 6"} for markdown editor"
-							<li> "Optimized for {<b> "PWA"}"
-							<li> "Designed & implemented backend with {<b> "Django"}, {<b> "Django Channels"}, {<b> "Websockets"}"
-							<li> "Deployed the {<b> "ASGI"} app on a VPS with {<b> "Docker"}, {<b> "Docker Compose"}, {<b> "Nginx"}, {<b> "Traefik"}, {<b> "Redis"} & {<b> "PostgreSQL"}"
 
 					<section .experience>
 						<h3> 'FRONTEND DEVELOPER'
@@ -223,9 +223,9 @@ tag app
 							<a[d:inline] target='_blank' href='https://SONGBOOK.CLUB'> 'SONGBOOK.CLUB'							
 							' | 2021'
 						<ul>
-							<li> "Designed and implemented frontend with {<b> "Imba"}"
-							<li> "Used {<b> "PWA"} for better user experience"
-							<li> "Hosted on {<b> "GitHub Pages"}"
+							<li> "Designed and implemented frontend with {<strong> "Imba"}"
+							<li> "Used {<strong> "PWA"} for better user experience"
+							<li> "Hosted on {<strong> "GitHub Pages"}"
 
 					<section .experience>
 						<h3> 'FRONTEND DEVELOPER'
@@ -233,7 +233,7 @@ tag app
 							<a[d:inline] target='_blank' href='https://khmer-typing.ericvida.com/'> 'KHMER TYPING GAME'							
 							' | 2021'
 						<ul>
-							<li> "Implemented frontend with {<b> "Imba"}"
+							<li> "Implemented frontend with {<strong> "Imba"}"
 							<li> 'Collaborated with designer'
 
 					<section .experience>
@@ -242,9 +242,9 @@ tag app
 							<a[d:inline] target='_blank' href='https://BOHUSLAV.ME/Dictionary'> 'DICTIONARY'
 							' | 2021'
 						<ul>
-							<li> "Designed and implemented frontend with {<b> "Imba"}"
-							<li> "Used {<b> "PWA"} for better user experience"
-							<li> "Hosted on {<b> "GitHub Pages"}"
+							<li> "Designed and implemented frontend with {<strong> "Imba"}"
+							<li> "Used {<strong> "PWA"} for better user experience"
+							<li> "Hosted on {<strong> "GitHub Pages"}"
 
 					<section .experience>
 						<h3> 'FRONTEND DEVELOPER'
@@ -253,7 +253,7 @@ tag app
 							' | 2019'
 						<ul>
 							<li> "Designed and implemented frontend with Imba 1"
-							<li> "Hosted on {<b> "GitHub Pages"}"
+							<li> "Hosted on {<strong> "GitHub Pages"}"
 
 
 				<article .block>
@@ -265,7 +265,7 @@ tag app
 			<h1> 'OTHER SKILLS & EXPERIENCE'
 			<p> "Beside works mentioned above, I have done some other webapps, which were not successful but brought me a lot of experience"
 			<p> "The most prominent was koteus.com, working over which I did learn a lot about online shops --
-				{<b> 'SEO optimization'} of the website, {<b> 'microdata'}, {<b> 'PWA'}, fitting for {<b> 'Google Merchant'}"
+				{<strong> 'SEO optimization'} of the website, {<strong> 'microdata'}, {<strong> 'PWA'}, fitting for {<strong> 'Google Merchant'}"
 			
 			<h2[fs:1.2em mb:0px]> 'OTHER SMALL PROJECTS'
 			<p> "One day frontend project {<a [fw:bold] href='https://bohuslav.me/barbershop/dist'> 'Barbershop'}"
