@@ -159,15 +159,20 @@ tag app
 					<h2> 'SKILLS'
 					<ul>
 						<li> "Imba"
-						<li> "Django, Python"
+						<li> "Django"
+						<li> 'Python'
 						<li> "JavaScript"
 						<li> "CSS"
 						<li> "PWA"
-						<li> "PostgreSQL"
-						<li> "Git"
-						<li> "Node.js"
-						<li> "Linux"
 						<li> "SEO"
+						<li> "PostgreSQL"
+						<li> "Node.js"
+						<li> "Git"
+						<li> "Linux"
+						<li> "Docker"
+						<li> "Docker Compose"
+						<li> "Nginx"
+						<li> "Traefik"
 						<li> 'Google App Engine'
 						<li> 'Google Merchant'
 						<li> "Google Analytics"
