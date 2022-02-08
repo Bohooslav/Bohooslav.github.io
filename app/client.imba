@@ -158,9 +158,9 @@ tag app
 				<article .block>
 					<h2> 'SKILLS'
 					<ul>
-						<li> "Imba"
 						<li> "Django"
 						<li> 'Python'
+						<li> "Imba"
 						<li> "JavaScript"
 						<li> "CSS"
 						<li> "PWA"
