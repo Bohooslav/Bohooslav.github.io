@@ -172,6 +172,7 @@ tag app
 						<li> "Docker"
 						<li> "Docker Compose"
 						<li> "Nginx"
+						<li> 'English'
 						<li> "Traefik"
 						<li> 'Google App Engine'
 						<li> 'Google Merchant'
@@ -183,8 +184,8 @@ tag app
 					<section .experience>
 						<h3> 'FULLSTACK DEVELOPER'
 						<h4>
-							'BOLLS BIBLE | '
-							<a[d:inline] target='_blank' href='https://BOLLS.LIFE'> 'BOLLS.LIFE'
+							<a[d:inline] target='_blank' href='https://BOLLS.LIFE'> 'BOLLS BIBLE | '
+							<a[d:inline] target='_blank' href='https://github.com/Bohooslav/bain'> 'GITHUB'
 							' | SEP 2019 - PRESENT'
 						<ul>
 							<li> "Designed & implemented database architecture with {<strong> "PostgreSQL"} and backend with {<strong> "Django"}"
@@ -219,8 +220,8 @@ tag app
 					<section .experience>
 						<h3> 'FRONTEND DEVELOPER'
 						<h4>
-							'SONGBOOK | '
-							<a[d:inline] target='_blank' href='https://SONGBOOK.CLUB'> 'SONGBOOK.CLUB'							
+							<a[d:inline] target='_blank' href='https://SONGBOOK.CLUB'> 'SONGBOOK | '
+							<a[d:inline] target='_blank' href='https://github.com/Bohooslav/songbook'> 'GITHUB'
 							' | 2021'
 						<ul>
 							<li> "Designed and implemented frontend with {<strong> "Imba"}"
@@ -230,7 +231,8 @@ tag app
 					<section .experience>
 						<h3> 'FRONTEND DEVELOPER'
 						<h4>
-							<a[d:inline] target='_blank' href='https://khmer-typing.ericvida.com/'> 'KHMER TYPING GAME'							
+							<a[d:inline] target='_blank' href='https://khmer-typing.ericvida.com/'> 'KHMER TYPING GAME | '
+							<a[d:inline] target='_blank' href='https://github.com/ericvida/khmer-typing'> 'GITHUB'
 							' | 2021'
 						<ul>
 							<li> "Implemented frontend with {<strong> "Imba"}"
@@ -239,7 +241,8 @@ tag app
 					<section .experience>
 						<h3> 'FRONTEND DEVELOPER'
 						<h4>
-							<a[d:inline] target='_blank' href='https://BOHUSLAV.ME/Dictionary'> 'DICTIONARY'
+							<a[d:inline] target='_blank' href='https://BOHUSLAV.ME/Dictionary'> 'DICTIONARY | '
+							<a[d:inline] target='_blank' href='https://github.com/Bohooslav/Dictionary'> 'GITHUB'
 							' | 2021'
 						<ul>
 							<li> "Designed and implemented frontend with {<strong> "Imba"}"
@@ -263,6 +266,7 @@ tag app
 				Designed & implemented with Imba 1 in summer 2019"
 			<p> "One day frontend project {<a [fw:bold] href='https://bohuslav.me/barbershop/dist'> 'Barbershop'}"
 			<p> <a [fw:bold] href='https://bohuslav.me/gesenius/'> 'Gesenius\' Hebrew Grammar'
+			<p> "This website ({<a href='bohuslav.me'> "bohuslav.me"}) is also written with {<b> "Imba"} and {<b> 'PWA'}."
 			<p> 'I live in Khust, Ukraine. I love to code, design, play on violin, listen classical music, run on mountains and pet cats.'
 
 		<footer .ambit>
