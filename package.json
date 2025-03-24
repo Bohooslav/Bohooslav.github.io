@@ -1,15 +1,12 @@
 {
   "name": "bohooslav_github_io",
   "scripts": {
-    "start": "imba -w server.imba",
-    "build": "imba build --no-hashing server.imba"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "imba": "^2.0.0-alpha.129"
+    "dev": "imba -w index.html",
+    "build": "imba build index.html",
+    "preview": "npx vite preview"
   },
   "devDependencies": {
-    "@types/node": "^14.14.22"
+    "imba": "^2.0.0-alpha.239"
   },
   "repository": "Bohooslav/Bohooslav.github.io",
   "description": "My portfolio",

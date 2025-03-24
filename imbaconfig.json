@@ -1,0 +1,7 @@
+{
+  "options": {
+    "output": "public",
+    "source": "src",
+    "port": 3000
+  }
+}
