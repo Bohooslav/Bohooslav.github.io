@@ -50,13 +50,12 @@ global css
 
 	html, body
 		font-family: "Raleway", "Oswald", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-		font-size: 14px
-	
+
 	h2
 		ff:'Oswald', sans-serif
 		fw:normal
 		letter-spacing:0.15em
-		m:16px 0
+		m:1rem 0
 
 	h3
 		fs:1em
@@ -70,9 +69,9 @@ global css
 		d:inline
 		c:$c
 		td:none @hover: 1px solid underline @lt-lg: 1px solid underline
-		p:4px 0
+		p:.25rem 0
 		letter-spacing:0.1em
-	
+
 	p
 		lh:1.6
 		letter-spacing: 0.1em
