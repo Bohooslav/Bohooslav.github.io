@@ -163,10 +163,10 @@ tag app
 							<a target='_blank' href='https://github.com/Bolls-Bible/bain'> 'GITHUB'
 							' | SEP 2019 - PRESENT'
 						<ul>
-							<li> "Designed & implemented models and API with {<strong> "Django"} and  {<strong> "PostgreSQL"}"
+							<li> "Designed & implemented API and models with {<strong> "Django"} and {<strong> "PostgreSQL"}"
 							<li> "Designed & implemented UI/UX with {<strong> "Imba"}"
-							<li> "Optimized the app for {<strong> "PWA"} and {<strong> "SEO"}, made possible offline experience with {<strong> "IndexedDB"} integration using {<strong> "Dexie.js"}"
-							<li> "Had the backend hosted on {<strong> "Google App Engine"} {<strong> 'AWS EC2'} and various {<strong> 'VPS'}"
+							<li> "Optimized the app for {<strong> "PWA"} and {<strong> "SEO"}, made offline experience possible with {<strong> "IndexedDB"} integration using {<strong> "Dexie.js"}"
+							<li> "Had the backend hosted on {<strong> "Google App Engine"} {<strong> 'AWS EC2'} and various {<strong> 'VPS'}. Automated deployment with {<strong> 'Docker'}, {<strong> 'Nginx'} and {<strong> 'GitHub Actions'}"
 							<li> 'Released clients to Microsoft Store, Snap Store, Google Play Market and Flathub'
 							<li> 'Maintaining the app for over 5 years by now, adding new features and fixing bugs'
 
@@ -178,22 +178,21 @@ tag app
 							<a target='_blank' href='https://www.luckyvoice.com/'> 'LUCKYVOICE'
 							' | FEB 2022 - PRESENT'
 						<ul>
-							<li> "Has been improving and maintaining the {<strong> 'Electron'} app for over 2 years. Implemented remote control for the app, refactored player, and improved performance. Covered the codebase with e2e test using {<strong> 'Vitest'} and {<strong> 'React Testing Library'}. Used {<strong> 'React'}, {<strong> 'Redux'}, {<strong> 'Redux Sagas'}, {<strong> 'TS'}, {<strong> 'PouchDB'}, {<strong> 'SCSS'}"
+							<li> "Has been improving and maintaining the {<strong> 'Electron'} app for over 2 years. Implemented remote control for the app, refactored player, and improved performance. Covered the codebase with e2e test using {<strong> 'Vitest'} and {<strong> 'React Testing Library'}. Used {<strong> 'React'}, {<strong> 'Redux Sagas'}, {<strong> 'TS'}, {<strong> 'PouchDB'}, {<strong> 'SCSS'}"
 							<li> "Maintained, refactored and improved performance of {<strong> 'React Native'} app"
-							<li> "Implemented {<strong> 'Django'} API for the Electron app. Helped with infrastructure maintenance and deploy, used {<strong> 'Helm'}, {<strong> 'AWS'}, {<strong> 'Nginx'}, {<strong> 'Postgres'}, {<strong> 'Docker'}"
-							<li> "Took part in the website redesign and created new design ideas in {<strong> 'Figma'}"
-							<li> "implemented new CMS with {<strong> 'PayloadCMS'} and {<strong> 'MongoDB'}"
+							<li> "Developed {<strong> 'Django'} API for the Electron app. Helped with infrastructure maintenance and deploys, used {<strong> 'Helm'}, {<strong> 'AWS'}, {<strong> 'Nginx'}, {<strong> 'Postgres'}, {<strong> 'Docker'} and {<strong> 'Kubernetes'}"
+							<li> "Took initiative to redesign their booking website and created new design ideas in {<strong> 'Figma'}"
+							<li> "Made a new CMS with {<strong> 'PayloadCMS'} and {<strong> 'MongoDB'}"
 
 					<section.experience>
 						<h3> 'SOFTWARE ENGINEER ', <pill>
 							'at '
 							<a target='_blank' href='https://tgadigital.com/'> 'TGA Digital'
 						<h4>
-							<a target='_blank' href='https://just3things.com/'> 'JUST3THINGS'
-							' | APR 2022 - JUNE 2022'
+							'JUST3THINGS | APR 2022 - JUNE 2022'
 						<ul>
 							<li> "Participated in migration from 2015 Angular.js to {<strong> 'Svelte'}/{<strong> 'Sveltekit'}/{<strong> 'TS'}"
-							<li> "Implemented new features, and fixed bugs across all the infrastructure, built around {<strong> 'Docker'}"
+							<li> "Implemented new features, and fixed bugs across all their diverse infrastructure"
 
 					<section.experience>
 						<h3> 'SOFTWARE ENGINEER ', <pill>
@@ -206,11 +205,11 @@ tag app
 							<li> "Participated in rewriting from scratch a Dashboard with {<strong> 'React'}, {<strong> 'Redux Toolkit'}, {<strong> 'TS'} and a custom {<strong> 'UI library'}"
 							<li> "Actively participated in creation of {<strong> 'monorepo'} with a library of UI components"
 							<li> "Facilitated project {<strong> 'refactoring'} enforcing {<strong> 'best practices'} and {<strong> 'code quality'}"
-							<li> "Facilitated enhancement of {<strong> 'QA'} {<strong> 'GitHub Actions'} pipeline to add robustness to the testing process during {<strong> 'CI/CD'}"
+							<li> "Facilitated enhancement of {<strong> 'GitHub Actions'} {<strong> 'QA'} pipeline to add robustness to the testing process during {<strong> 'CI/CD'}"
 
 		<section.afterword>
 			<h1> 'OTHER SKILLS & EXPERIENCE'
-			<p[pb:2rem]> "Beside works mentioned above, I have done some other webapps, that brought me a wealth of experience"
+			<p[pb:2rem]> "Beside works mentioned above, I have some other works, that brought me a wealth of experience"
 
 			<article.experience>
 				<h3> 'FRONTEND DEVELOPER ', <pill>
@@ -220,9 +219,9 @@ tag app
 					<a target='_blank' href='https://github.com/Bohooslav/songbook'> 'GITHUB'
 					' | 2021'
 				<ul>
-					<li> "Designed and implemented frontend with {<strong> "Imba"}"
-					<li> "Used {<strong> "PWA"} for better user experience"
-					<li> "Hosted on {<strong> "GitHub Pages"}"
+					<li> "Designed and implemented a church songbook app with {<strong> "Imba"}"
+					<li> "Used {<strong> "PWA"} for offline experience"
+					<li> "Deployed via {<strong> 'Github Actions'} and hosted on {<strong> "GitHub Pages"}"
 
 			<article.experience>
 				<h3> 'FRONTEND DEVELOPER'
@@ -231,7 +230,7 @@ tag app
 					' | '
 					<a target='_blank' href='https://github.com/ericvida/khmer-typing'> 'GITHUB'
 					' | 2021'
-				<p> "In collaboration with designer/client, I implemented the frontend of the game with {<strong> "Imba"}"
+				<p> "In collaboration with designer/client, I implemented the game with {<strong> "Imba"}"
 
 			<article.experience>
 				<h3> 'FULLSTACK DEVELOPER ', <pill>
@@ -239,32 +238,34 @@ tag app
 					<a target='_blank' href='https://github.com/Bohooslav/quikpad'> 'QUIKPAD'
 					' | 2022'
 				<ul>
-					<li> "Designed & implemented the app frontend with {<strong> "Imba"}"
+					<li> "Designed & implemented notes taking app with {<strong> "Imba"} and {<strong> 'Django'}"
 					<li> "Used {<strong> "CodeMirror 6"} for markdown editor"
 					<li> "Optimized for {<strong> "PWA"}"
-					<li> "Designed & implemented backend with {<strong> "Django"}, {<strong> "Django Channels"}, {<strong> "Websockets"}"
-					<li> "Deployed the {<strong> "ASGI"} app on a VPS with {<strong> "Docker"}, {<strong> "Docker Compose"}, {<strong> "Nginx"}, {<strong> "Traefik"}, {<strong> "Redis"} & {<strong> "PostgreSQL"}"
-				<p> "Stripped down client-side only version of the app  {<strong> <a target='_blank' href='https://bohuslav.me/notepad/'> 'is available here'} | {<strong> <a target='_blank' href='https://github.com/Bohooslav/notepad'> 'GitHub'}"
+					<li> "Make possible {<strong> "websockets"} realtime synchronization across devices with {<strong> "Django Channels"} and {<strong> 'CodeMirror 6'} features"
+					<li> "Deployed the {<strong> "ASGI"} app on a VPS with {<strong> "Docker Compose"}, {<strong> "Nginx"}, {<strong> "Traefik"}, {<strong> "Redis"} & {<strong> "PostgreSQL"}"
+				
+				<p> "Stripped down client-side only version of the app  {<strong> <a target='_blank' href='https://bohuslav.me/notepad/'> 'located here'} | {<strong> <a target='_blank' href='https://github.com/Bohooslav/notepad'> 'GitHub'}"
 
 			<article.experience>
 				<h3> 'FULLSTACK DEVELOPER'
 				<h4> 'CODEGEMS | MGRESTYLE.SK | FEB 2020 - APR 2020'
 				<ul>
-					<li> "Designed & implemented database architecture and backend with {<strong> "Django & SQLite"}"
-					<li> "Implemented frontend with Vue.js & Nuxt.js"
+					<li> "Designed & implemented API with {<strong> "Django"}"
+					<li> "Implemented frontend with {<strong> 'Vue.js'} & {<strong> 'Nuxt.js'}"
 
 			<article.experience>
 				<h3> 'FRONTEND DEVELOPER ', <pill>
 				<h4>
-					<a target='_blank' href='https://BOHUSLAV.ME/Dictionary'> 'DICTIONARY | '
+					<a target='_blank' href='https://BOHUSLAV.ME/Dictionary'> 'DICTIONARY'
+					' | '
 					<a target='_blank' href='https://github.com/Bohooslav/Dictionary'> 'GITHUB'
 					' | 2021'
 				<ul>
-					<li> "Designed and implemented frontend with {<strong> "Imba"}"
+					<li> "Created the app with {<strong> "Imba"}"
 					<li> "Used {<strong> "PWA"} for better user experience"
 					<li> "Hosted on {<strong> "GitHub Pages"}"
 
-			
+
 			<h2[fs:1.2em mb:0]> 'OTHER PROJECTS'
 			<p> "An online dropshipping shop koteus.com, where I learned a lot about {<strong> 'SEO optimization'}, {<strong> 'microdata'}, {<strong> 'PWA'} and fine tuning for {<strong> 'Google Merchant'}"
 			<p> "My first project was a small game {<a[fw:bold] target='_blank' href='https://bohuslav.me/poopsssweemer/dist/'> 'Poopsssweemer'}. Designed & implemented with Imba 1 during summer 2019"
